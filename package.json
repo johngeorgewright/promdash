@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "ES6 implementation of lodash",
   "main": "pro-dash.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/johngeorgewright/pro-dash"
+  },
   "scripts": {
     "test": "mocha --check-leaks --compilers js:babel/register"
   },
