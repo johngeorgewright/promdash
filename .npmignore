@@ -1,4 +1,4 @@
-source
+*.es
 *.log
 node_modules
 *.swp
