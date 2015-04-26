@@ -1,6 +1,6 @@
 import chai from 'chai';
 import sinon from 'sinon';
-import ProDash from '../pro-dash';
+import ProDash from '../source/pro-dash';
 let {expect} = chai;
 
 function resolveAs(value) {
