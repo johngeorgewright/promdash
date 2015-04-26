@@ -2,12 +2,15 @@
   "name": "pro-dash",
   "version": "0.0.1",
   "description": "ES6 implementation of lodash",
-  "main": "pro-dash.js",
+  "main": "build/pro-dash.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/johngeorgewright/pro-dash"
+    "type": "git",
+    "url": "https://github.com/johngeorgewright/pro-dash"
   },
   "scripts": {
+    "build": "mkdir build && babel -o build/pro-dash.js source/pro-dash.js",
+    "clean": "rm -rf build",
+    "prepublish": "npm run build",
     "test": "mocha --check-leaks --compilers js:babel/register"
   },
   "keywords": [
