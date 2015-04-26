@@ -1,0 +1,23 @@
+{
+  "name": "pro-dash",
+  "version": "0.0.1",
+  "description": "ES6 implementation of lodash",
+  "main": "pro-dash.js",
+  "scripts": {
+    "test": "mocha --check-leaks --compilers js:babel/register"
+  },
+  "keywords": [
+    "Promise"
+  ],
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.1.13",
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  },
+  "dependencies": {
+    "lodash": "^3.7.0"
+  }
+}
