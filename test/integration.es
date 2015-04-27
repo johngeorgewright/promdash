@@ -1,7 +1,6 @@
 /*eslint-env node, mocha*/
 
 import chai from 'chai';
-import sinon from 'sinon';
 import ProDash from '../pro-dash';
 let {expect} = chai;
 
