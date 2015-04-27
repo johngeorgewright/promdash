@@ -15,4 +15,11 @@ _.functions(_).forEach(f => {
       return this.then((...xargs) => _[f](...xargs, ...yargs));
     };
   }
+
+  if (!ProDash[f]) {
+    ProDash[f] = (...args) => {
+      let result = _[f](...args);
+      return Array.isArray(result) ? ProDash.all(result) : ProDash.resolve(result);
+    };
+  }
 });

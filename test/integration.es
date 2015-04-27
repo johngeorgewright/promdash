@@ -10,7 +10,7 @@ function resolve(...values) {
 
 // Essentially copy the examples from lodash and make sure they work
 describe('Lodash integration', () => {
-  describe('array#chunk(size=1)', () => {
+  describe('#chunk(size=1)', () => {
     it('s default size is 1', () => {
       return resolve([0, 1, 2, 3, 4])
         .chunk()
@@ -24,7 +24,19 @@ describe('Lodash integration', () => {
     });
   });
 
-  describe('array#compact()', () => {
+  describe('.chunk(size=1)', () => {
+    it('s default size is 1', () => {
+      return ProDash.chunk([0, 1, 2, 3, 4])
+        .then(result => expect(result).to.eql([[0], [1], [2], [3], [4]]));
+    });
+
+    it('will chunk an array up in a given size', () => {
+      return ProDash.chunk(['a', 'b', 'c', 'd'], 3)
+        .then(result => expect(result).to.eql([['a', 'b', 'c'], ['d']]));
+    });
+  });
+
+  describe('#compact()', () => {
     it('will remove all falsy value', () => {
       return resolve([0, 1, false, 2, '', 3])
         .compact()
@@ -32,7 +44,14 @@ describe('Lodash integration', () => {
     });
   });
 
-  describe('array#difference(array, [values])', () => {
+  describe('.compact()', () => {
+    it('will remove all falsy value', () => {
+      return ProDash.compact([0, 1, false, 2, '', 3])
+        .then(result => expect(result).to.eql([1, 2, 3]));
+    });
+  });
+
+  describe('#difference(array, [values])', () => {
     it('creates an array excluding all values of the provided arrays using SameValueZero for equality comparisons', () => {
       return resolve([1, 2, 3])
         .difference([4, 2])
@@ -40,7 +59,14 @@ describe('Lodash integration', () => {
     });
   });
 
-  describe('array#drop(array, [n=1])', () => {
+  describe('.difference(array, [values])', () => {
+    it('creates an array excluding all values of the provided arrays using SameValueZero for equality comparisons', () => {
+      return ProDash.difference([1, 2, 3], [4, 2])
+        .then(result => expect(result).to.eql([1, 3]));
+    });
+  });
+
+  describe('#drop(array, [n=1])', () => {
     it('s default `n` is 1', () => {
       return resolve([1, 2, 3])
         .drop()
@@ -66,7 +92,29 @@ describe('Lodash integration', () => {
     });
   });
 
-  describe('array#dropRight(array, [n=1])', () => {
+  describe('.drop(array, [n=1])', () => {
+    it('s default `n` is 1', () => {
+      return ProDash.drop([1, 2, 3])
+        .then(result => expect(result).to.eql([2, 3]));
+    });
+
+    it('can take a number as `n`', () => {
+      return ProDash.drop([1, 2, 3], 2)
+        .then(result => expect(result).to.eql([3]));
+    });
+
+    it('will return an empty array when there is nothing left to drop', () => {
+      return ProDash.drop([1, 2, 3], 5)
+        .then(result => expect(result).to.be.empty);
+    });
+
+    it('wont do anything with a zero', () => {
+      return ProDash.drop([1, 2, 3], 0)
+        .then(result => expect(result).to.eql([1, 2, 3]));
+    });
+  });
+
+  describe('#dropRight(array, [n=1])', () => {
     it('s default `n` is 1', () => {
       return resolve([1, 2, 3])
         .dropRight()
@@ -92,7 +140,29 @@ describe('Lodash integration', () => {
     });
   });
 
-  describe('array#dropRightWhile(array, [predicate=_.identity], [thisArg])', () => {
+  describe('.dropRight(array, [n=1])', () => {
+    it('s default `n` is 1', () => {
+      return ProDash.dropRight([1, 2, 3])
+        .then(result => expect(result).to.eql([1, 2]));
+    });
+
+    it('can take a number as `n`', () => {
+      return ProDash.dropRight([1, 2, 3], 2)
+        .then(result => expect(result).to.eql([1]));
+    });
+
+    it('will return an empty array when there is nothing left to drop', () => {
+      return ProDash.dropRight([1, 2, 3], 5)
+        .then(result => expect(result).to.be.empty);
+    });
+
+    it('wont do anything with a zero', () => {
+      return ProDash.dropRight([1, 2, 3], 0)
+        .then(result => expect(result).to.eql([1, 2, 3]));
+    });
+  });
+
+  describe('#dropRightWhile(array, [predicate=_.identity], [thisArg])', () => {
     let users;
 
     beforeEach(() => users = [
@@ -131,7 +201,42 @@ describe('Lodash integration', () => {
     });
   });
 
-  describe('array#dropWhile(array, [predicate=_.identity], [thisArg])', () => {
+  describe('.dropRightWhile(array, [predicate=_.identity], [thisArg])', () => {
+    let users;
+
+    beforeEach(() => users = [
+      { user: 'barney', active: true },
+      { user: 'fred', active: false },
+      { user: 'pebbles', active: false }
+    ]);
+
+    it('can take a function as a predicate', () => {
+      return ProDash.dropRightWhile([1, 2, 3], n => n > 1)
+        .then(result => expect(result).to.eql([1]));
+    });
+
+    it('works using the `_.matches` callback shorthand', () => {
+      return ProDash.dropRightWhile(users, { user: 'pebbles', active: false })
+        .then(result => expect(result).to.eql([
+          { user: 'barney', active: true },
+          { user: 'fred', active: false }
+        ]));
+    });
+
+    it('works using the `_.matchesProperty` callback shorthand', () => {
+      return ProDash.dropRightWhile(users, 'active', false)
+        .then(result => expect(result).to.eql([
+          { user: 'barney', active: true }
+        ]));
+    });
+
+    it('works using the `_.property` callback shorthand', () => {
+      return ProDash.dropRightWhile(users, 'active')
+        .then(result => expect(result).to.eql(users));
+    });
+  });
+
+  describe('#dropWhile(array, [predicate=_.identity], [thisArg])', () => {
     let users;
 
     beforeEach(() => users = [
@@ -166,6 +271,41 @@ describe('Lodash integration', () => {
     it('works using the `_.property` callback shorthand', () => {
       return resolve(users)
         .dropWhile('active')
+        .then(result => expect(result).to.eql(users));
+    });
+  });
+
+  describe('.dropWhile(array, [predicate=_.identity], [thisArg])', () => {
+    let users;
+
+    beforeEach(() => users = [
+      { user: 'barney', active: false },
+      { user: 'fred', active: false },
+      { user: 'pebbles', active: true }
+    ]);
+
+    it('can take a function as a predicate', () => {
+      return ProDash.dropWhile([1, 2, 3], n => n < 3)
+        .then(result => expect(result).to.eql([3]));
+    });
+
+    it('works using the `_.matches` callback shorthand', () => {
+      return ProDash.dropWhile(users, { user: 'barney', active: false })
+        .then(result => expect(result).to.eql([
+          { user: 'fred', active: false },
+          { user: 'pebbles', active: true }
+        ]));
+    });
+
+    it('works using the `_.matchesProperty` callback shorthand', () => {
+      return ProDash.dropWhile(users, 'active', false)
+        .then(result => expect(result).to.eql([
+          { user: 'pebbles', active: true }
+        ]));
+    });
+
+    it('works using the `_.property` callback shorthand', () => {
+      return ProDash.dropWhile(users, 'active')
         .then(result => expect(result).to.eql(users));
     });
   });
