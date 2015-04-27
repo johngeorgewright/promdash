@@ -32,7 +32,9 @@ ProDash
 What's more is that the `then()` has been patched to resolve any array just like `Promise.all()`:
 
 ```js
-promise
+import ProDash from 'pro-dash';
+
+ProDash
   .rest(promises)
   // resolves all promses... then
   .map(item => doSomethingAsyncronous(item))
