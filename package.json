@@ -1,6 +1,6 @@
 {
   "name": "pro-dash",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ES6 implementation of lodash",
   "main": "pro-dash.js",
   "repository": {
