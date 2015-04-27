@@ -17,6 +17,29 @@ promise
   .then(console.log); // [3, 4, 5]
 ```
 
+They're also available statically:
+
+```js
+import ProDash from 'pro-dash';
+
+ProDash
+  .filter([0, 1, 2, 3, 4])
+  .map(x => x + 1)
+  .rest()
+  .then(console.log); // [3, 4, 5]
+```
+
+What's more is that the `then()` has been patched to resolve any array just like `Promise.all()`:
+
+```js
+promise
+  .rest(promises)
+  // resolves all promses... then
+  .map(item => doSomethingAsyncronous(item))
+  // again, resolves all promises
+  .then(console.log);
+```
+
 How?
 ====
 
