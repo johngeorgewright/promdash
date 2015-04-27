@@ -6,7 +6,7 @@ import sinon from 'sinon';
 import ProDash from '../pro-dash';
 
 chai.use(sinonChai);
-let {expect} = chai;
+chai.should();
 
 function resolve(...values) {
   return new ProDash(resolve => resolve(...values));
@@ -20,7 +20,7 @@ describe('ProDash', () => {
     it('uses ProDash.all on arrays', () => {
       return resolve([1, 2, 3])
         .then(array => array)
-        .then(() => expect(ProDash.all).to.have.been.calledWithExactly([1, 2, 3]));
+        .then(() => ProDash.all.should.have.been.calledWithExactly([1, 2, 3]));
     });
   });
 });
