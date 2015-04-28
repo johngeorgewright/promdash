@@ -1,4 +1,4 @@
-ProDash
+Promdash
 =======
 
 Lodash implementation in ES6 Promises.
@@ -11,9 +11,9 @@ API
 All functions listed in the [lodash API](https://lodash.com/docs) are added to the Promise class.
 
 ```js
-import ProDash from 'pro-dash';
+import Promdash from 'promdash';
 
-let promise = new ProDash(resolve => resolve([0, 1, 2, 3, 4]));
+let promise = new Promdash(resolve => resolve([0, 1, 2, 3, 4]));
 
 promise
   .filter()
@@ -27,9 +27,9 @@ promise
 Lodash is also available statically:
 
 ```js
-import ProDash from 'pro-dash';
+import Promdash from 'promdash';
 
-ProDash
+Promdash
   .filter([0, promise1, 2, promise3, 4])
   .map(x => x + 1)
   .rest()
@@ -41,9 +41,9 @@ ProDash
 What's more is that the `then()` has been patched to resolve any array just like `Promise.all()`:
 
 ```js
-import ProDash from 'pro-dash';
+import Promdash from 'promdash';
 
-ProDash
+Promdash
   .rest(promises)
   // resolves all promses... then
   .map(item => doSomethingAsyncronous(item))
@@ -53,14 +53,14 @@ ProDash
 
 ### .from()
 
-If you need to need to convert an instance of `Promise` in to an instance of `ProDash`, use the `.from()` function:
+If you need to need to convert an instance of `Promise` in to an instance of `Promdash`, use the `.from()` function:
 
 ```js
-import ProDash from 'pro-dash';
+import Promdash from 'promdash';
 import reqwest from 'reqwest';
 
 let promise = reqwest.get('/some-data.json');
-ProDash.from(promise).map(item => item + 2);
+Promdash.from(promise).map(item => item + 2);
 ```
 
 How?
@@ -72,5 +72,5 @@ Installation
 ------------
 
 ```
-npm i pro-dash
+npm i promdash
 ```

@@ -1,11 +1,11 @@
 {
-  "name": "pro-dash",
+  "name": "promdash",
   "version": "1.2.0",
   "description": "ES6 implementation of lodash",
-  "main": "pro-dash.js",
+  "main": "promdash.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johngeorgewright/pro-dash"
+    "url": "https://github.com/johngeorgewright/promdash"
   },
   "scripts": {
     "build": "babel -o promdash.js promdash.es",
