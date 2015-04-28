@@ -23,7 +23,7 @@ They're also available statically:
 import ProDash from 'pro-dash';
 
 ProDash
-  .filter([0, 1, 2, 3, 4])
+  .filter([promise1, promise2, 3, promise4, 5])
   .map(x => x + 1)
   .rest()
   .then(console.log); // [3, 4, 5]
