@@ -8,7 +8,7 @@
     "url": "https://github.com/johngeorgewright/pro-dash"
   },
   "scripts": {
-    "build": "babel -o pro-dash.js pro-dash.es",
+    "build": "babel -o promdash.js promdash.es",
     "prepublish": "npm run build",
     "test": "mocha --check-leaks --compilers es:babel/register",
     "test-watch": "mocha --watch --growl --check-leaks --compilers es:babel/register"
