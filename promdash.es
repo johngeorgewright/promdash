@@ -11,8 +11,8 @@ export default class Promdash extends Promise {
 }
 
 Promdash.from = promise => {
-  if (!(promise instanceof Promise)) {
-    throw new Error('Promise.from() requires an instance of Promise');
+  if (!promise.then) {
+    throw new Error('Promdash.from() requires a `then`able object');
   }
   return new Promdash(promise.then.bind(promise));
 };
