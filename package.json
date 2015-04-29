@@ -1,6 +1,6 @@
 {
   "name": "promdash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES6 implementation of lodash",
   "main": "promdash.js",
   "repository": {
