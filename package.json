@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "babel -o promdash.js promdash.es",
+    "link-jspm": "nodemon -x \"npm run build && jspm link npm:promdash -y\" -e es",
     "prepublish": "npm run build",
     "test": "mocha --check-leaks --compilers es:babel/register",
     "test-watch": "mocha --watch --growl --check-leaks --compilers es:babel/register"

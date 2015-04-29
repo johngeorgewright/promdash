@@ -3,8 +3,10 @@ import _ from 'lodash';
 export default class Promdash extends Promise {
   then(resolve, reject) {
     let arrayResolution = (...args) => {
-      let result = resolve(...args);
-      return Array.isArray(result) ? Promdash.all(result) : result;
+      if (resolve) {
+        let result = resolve(...args);
+        return Array.isArray(result) ? Promdash.all(result) : result;
+      }
     };
     return super.then(arrayResolution, reject);
   }
