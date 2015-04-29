@@ -21,15 +21,14 @@ describe('Promdash', () => {
 
     it('uses Promdash.all on arrays', () => {
       return resolve([1, 2, 3])
-        .then(array => array)
+        .then(Promdash.identity)
         .then(() => Promdash.all.should.have.been.calledWithExactly([1, 2, 3]));
     });
   });
 
   describe('.from()', () => {
     it('converts a Promise in to a Promdash instance', () => {
-      let promise = new Promise(r => r());
-      Promdash.from(promise).should.be.an.instanceof(Promdash);
+      Promdash.from(resolve()).should.be.an.instanceof(Promdash);
     });
 
     it('will instantly reject an already rejected promise', () => {
@@ -38,8 +37,7 @@ describe('Promdash', () => {
     });
 
     it('will resolve if an already resolved promise', () => {
-      let promise = new Promise(res => res());
-      return Promdash.from(promise).should.be.fulfilled;
+      return Promdash.from(resolve()).should.be.fulfilled;
     });
   });
 });
