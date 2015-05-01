@@ -5,7 +5,7 @@ Lodash implementation in ES6 Promises.
 
 [![NPM](https://nodei.co/npm/promdash.png)](https://nodei.co/npm/promdash/)
 
-[![NPM](https://nodei.co/npm/promdash.png)](https://nodei.co/npm-dl/promdash/)
+[![NPM](https://nodei.co/npm-dl/promdash.png)](https://nodei.co/npm-dl/promdash/)
 
 API
 ---
