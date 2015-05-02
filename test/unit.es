@@ -28,7 +28,7 @@ describe('Promdash', () => {
 
   describe('.from()', () => {
     it('converts a Promise in to a Promdash instance', () => {
-      Promdash.from(resolve()).should.be.an.instanceof(Promdash);
+      Promdash.from(resolve()).should.be.an.instanceOf(Promdash);
     });
 
     it('will instantly reject an already rejected promise', () => {
@@ -38,6 +38,24 @@ describe('Promdash', () => {
 
     it('will resolve if an already resolved promise', () => {
       return Promdash.from(resolve()).should.be.fulfilled;
+    });
+  });
+
+  describe('.resolve()', () => {
+    it('returns an instance of Promdash', () => {
+      Promdash.resolve('something').should.be.an.instanceOf(Promdash);
+    });
+  });
+
+  describe('.reject()', () => {
+    it('returns an instance of Promdash', () => {
+      Promdash.reject(new Error()).should.be.an.instanceOf(Promdash);
+    });
+  });
+
+  describe('.all()', () => {
+    it('returns an instance of Promdash', () => {
+      Promdash.all([]).should.be.an.instanceOf(Promdash);
     });
   });
 });

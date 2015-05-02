@@ -5,18 +5,19 @@ export default class Promdash extends Promise {
     let arrayResolution = (...args) => {
       if (resolve) {
         let result = resolve(...args);
-        return Array.isArray(result) ? Promdash.all(result) : result;
+        return Array.isArray(result) ? this.constructor.all(result) : result;
       }
     };
     return super.then(arrayResolution, reject);
   }
 }
 
-Promdash.from = promise => {
+Promdash.from = function (promise) {
   if (!promise.then) {
     throw new Error('Promdash.from() requires a `then`able object');
   }
-  return new Promdash(promise.then.bind(promise));
+  let P = this || Promdash;
+  return new P(promise.then.bind(promise));
 };
 
 _.functions(_).forEach(f => {
@@ -27,9 +28,10 @@ _.functions(_).forEach(f => {
   }
 
   if (!Promdash[f]) {
-    Promdash[f] = (...args) => {
+    Promdash[f] = function (...args) {
       let result = _[f](...args);
-      return Array.isArray(result) ? Promdash.all(result) : Promdash.resolve(result);
+      let P = this || Promdash;
+      return Array.isArray(result) ? P.all(result) : P.resolve(result);
     };
   }
 });
