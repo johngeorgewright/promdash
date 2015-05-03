@@ -36,8 +36,12 @@ describe('Promdash', () => {
       return Promdash.from(promise).should.be.rejected;
     });
 
-    it('will resolve if an already resolved promise', () => {
+    it('will resolve an already resolved promise', () => {
       return Promdash.from(resolve()).should.be.fulfilled;
+    });
+
+    it('will throw an error when something other than a thenable object is given', () => {
+      (() => Promise.from({})).should.throw(Error);
     });
   });
 
