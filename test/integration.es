@@ -2,7 +2,7 @@
 
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-import ProDash from '../promdash';
+import ProDash from '../promdash.es';
 
 chai.use(chaiAsPromised);
 chai.should();
