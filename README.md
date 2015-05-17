@@ -40,9 +40,9 @@ Promdash
   .then(console.log); // [3, 4, 5]
 ```
 
-### .then()
+### .then(Promise[])
 
-What's more is that the `then()` has been patched to resolve any array just like `Promise.all()`:
+Every Promdash method, including `then()`, resolves arrays of promises.
 
 ```js
 import Promdash from 'promdash';
@@ -52,6 +52,13 @@ Promdash
   // resolves all promses... then
   .map(item => doSomethingAsyncronous(item))
   // again, resolves all promises
+  .then(console.log);
+
+// This is equivalent to doing:
+Promise
+  .all(promises)
+  .then(items => Promise.all(_.rest(items))
+  .then(items => Promise.all(_.map(items, item => doSomethingAsyncronous(item))))
   .then(console.log);
 ```
 
