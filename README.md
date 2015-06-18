@@ -79,6 +79,8 @@ How?
 
 Simply an extended Promise class that has a `then` method for every lodash function.
 
+The lodash version is completely up to you. If you install lodash **before** installing promdash, promdash will pick up whatever version of lodash you're using. If you just install promdash, it will use the latest, stable version of lodash.
+
 Installation
 ------------
 
