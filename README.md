@@ -1,11 +1,18 @@
 Promdash
-=======
+========
 
 Lodash implementation in ES6 Promises.
 
 [![NPM](https://nodei.co/npm/promdash.png)](https://nodei.co/npm/promdash/)
 
 [![NPM](https://nodei.co/npm-dl/promdash.png)](https://nodei.co/npm-dl/promdash/)
+
+Requirements
+------------
+
+Promdash expects a global `Promise` class to be available. Apart from that, it is compatible with ES>=5.
+
+By default using the module will require the ES5 version: `require('promdash');`. However, if you'd prefer a more minimal ES6 version, import the `.es` version: `require('promdash/promdash.es')`.
 
 API
 ---
