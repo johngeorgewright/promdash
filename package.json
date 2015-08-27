@@ -22,7 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.1.13",
-    "chai": "^2.3.0",
+    "chai": "^3.2.0",
     "chai-as-promised": "^5.0.0",
     "mocha": "^2.2.4",
     "sinon": "^1.14.1",
