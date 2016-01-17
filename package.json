@@ -12,7 +12,7 @@
     "link-jspm": "nodemon -x \"npm run build && jspm link npm:promdash -y\" -e es",
     "prepublish": "npm test && npm run build",
     "test": "mocha --check-leaks --compilers es:babel/register",
-    "test-watch": "mocha --watch --growl --check-leaks --compilers es:babel/register"
+    "test-watch": "mocha --watch --growl --check-leaks --compilers es:babel/register --reporter dot"
   },
   "keywords": [
     "Promise",
@@ -22,6 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.1.13",
+    "babel-eslint": "^5.0.0-beta6",
     "chai": "^3.2.0",
     "chai-as-promised": "^5.0.0",
     "mocha": "^2.2.4",
