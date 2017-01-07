@@ -1,4 +1,4 @@
-/* eslint-env node, mocha */
+/* eslint-env mocha */
 
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'

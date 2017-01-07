@@ -1,4 +1,4 @@
-/* eslint-env node, mocha */
+/* eslint-env mocha */
 
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
@@ -27,8 +27,8 @@ describe('Promdash', () => {
   })
 
   describe('.from()', () => {
-    it('converts a Promise in to a Promdash instance', () => {
-      Promdash.from(resolve()).should.be.an.instanceOf(Promdash)
+    it.only('converts a Promise in to a Promdash instance', () => {
+      Promdash.from(Promise.resolve()).should.be.an.instanceOf(Promdash)
     })
 
     it('will instantly reject an already rejected promise', () => {
