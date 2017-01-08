@@ -2,13 +2,13 @@
 
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
-import ProDash from '../promdash.src.js'
+import Promdash from '../promdash.src.js'
 
 chai.use(chaiAsPromised)
 chai.should()
 
 function resolve (...values) {
-  return new ProDash(done => done(...values))
+  return new Promdash(done => done(...values))
 }
 
 // Essentially copy the examples from lodash and make sure they work
@@ -23,7 +23,7 @@ describe('Lodash integration', () => {
 
   describe('.chunk(size=1)', () => {
     it('will chunk an array up in a given size', () => (
-      ProDash.chunk(['a', 'b', 'c', 'd'], 3)
+      Promdash.chunk(['a', 'b', 'c', 'd'], 3)
         .should.eventually.eql([['a', 'b', 'c'], ['d']])
     ))
   })
@@ -38,7 +38,7 @@ describe('Lodash integration', () => {
 
   describe('.compact()', () => {
     it('will remove all falsy value', () => (
-      ProDash.compact([0, 1, false, 2, '', 3])
+      Promdash.compact([0, 1, false, 2, '', 3])
         .should.eventually.eql([1, 2, 3])
     ))
   })
@@ -53,7 +53,7 @@ describe('Lodash integration', () => {
 
   describe('.difference(array, [values])', () => {
     it('creates an array excluding all values of the provided arrays using SameValueZero for equality comparisons', () => (
-      ProDash.difference([1, 2, 3], [4, 2])
+      Promdash.difference([1, 2, 3], [4, 2])
         .should.eventually.eql([1, 3])
     ))
   })
@@ -86,22 +86,22 @@ describe('Lodash integration', () => {
 
   describe('.drop(array, [n=1])', () => {
     it('s default `n` is 1', () => (
-      ProDash.drop([1, 2, 3])
+      Promdash.drop([1, 2, 3])
         .should.eventually.eql([2, 3])
     ))
 
     it('can take a number as `n`', () => (
-      ProDash.drop([1, 2, 3], 2)
+      Promdash.drop([1, 2, 3], 2)
         .should.eventually.eql([3])
     ))
 
     it('will return an empty array when there is nothing left to drop', () => (
-      ProDash.drop([1, 2, 3], 5)
+      Promdash.drop([1, 2, 3], 5)
         .should.eventually.be.empty
     ))
 
     it('wont do anything with a zero', () => (
-      ProDash.drop([1, 2, 3], 0)
+      Promdash.drop([1, 2, 3], 0)
         .should.eventually.eql([1, 2, 3])
     ))
   })
@@ -134,22 +134,22 @@ describe('Lodash integration', () => {
 
   describe('.dropRight(array, [n=1])', () => {
     it('s default `n` is 1', () => (
-      ProDash.dropRight([1, 2, 3])
+      Promdash.dropRight([1, 2, 3])
         .should.eventually.eql([1, 2])
     ))
 
     it('can take a number as `n`', () => (
-      ProDash.dropRight([1, 2, 3], 2)
+      Promdash.dropRight([1, 2, 3], 2)
         .should.eventually.eql([1])
     ))
 
     it('will return an empty array when there is nothing left to drop', () => (
-      ProDash.dropRight([1, 2, 3], 5)
+      Promdash.dropRight([1, 2, 3], 5)
         .should.eventually.be.empty
     ))
 
     it('wont do anything with a zero', () => (
-      ProDash.dropRight([1, 2, 3], 0)
+      Promdash.dropRight([1, 2, 3], 0)
         .should.eventually.eql([1, 2, 3])
     ))
   })
@@ -207,12 +207,12 @@ describe('Lodash integration', () => {
     })
 
     it('can take a function as a predicate', () => (
-      ProDash.dropRightWhile([1, 2, 3], n => n > 1)
+      Promdash.dropRightWhile([1, 2, 3], n => n > 1)
         .should.eventually.eql([1])
     ))
 
     it('works using the `_.matches` callback shorthand', () => (
-      ProDash.dropRightWhile(users, { user: 'pebbles', active: false })
+      Promdash.dropRightWhile(users, { user: 'pebbles', active: false })
         .should.eventually.eql([
           { user: 'barney', active: true },
           { user: 'fred', active: false }
@@ -220,14 +220,14 @@ describe('Lodash integration', () => {
     ))
 
     it('works using the `_.matchesProperty` callback shorthand', () => (
-      ProDash.dropRightWhile(users, ['active', false])
+      Promdash.dropRightWhile(users, ['active', false])
         .should.eventually.eql([
           { user: 'barney', active: true }
         ])
     ))
 
     it('works using the `_.property` callback shorthand', () => (
-      ProDash.dropRightWhile(users, 'active')
+      Promdash.dropRightWhile(users, 'active')
         .should.eventually.eql(users)
     ))
   })
@@ -285,12 +285,12 @@ describe('Lodash integration', () => {
     })
 
     it('can take a function as a predicate', () => (
-      ProDash.dropWhile([1, 2, 3], n => n < 3)
+      Promdash.dropWhile([1, 2, 3], n => n < 3)
         .should.eventually.eql([3])
     ))
 
     it('works using the `_.matches` callback shorthand', () => (
-      ProDash.dropWhile(users, { user: 'barney', active: false })
+      Promdash.dropWhile(users, { user: 'barney', active: false })
         .should.eventually.eql([
           { user: 'fred', active: false },
           { user: 'pebbles', active: true }
@@ -298,14 +298,14 @@ describe('Lodash integration', () => {
     ))
 
     it('works using the `_.matchesProperty` callback shorthand', () => (
-      ProDash.dropWhile(users, ['active', false])
+      Promdash.dropWhile(users, ['active', false])
         .should.eventually.eql([
           { user: 'pebbles', active: true }
         ])
     ))
 
     it('works using the `_.property` callback shorthand', () => (
-      ProDash.dropWhile(users, 'active')
+      Promdash.dropWhile(users, 'active')
         .should.eventually.eql(users)
     ))
   })
@@ -332,17 +332,17 @@ describe('Lodash integration', () => {
 
   describe('.fill(array, value, [start=0], [end=array.length])', () => {
     it('fill an already filled array', () => (
-      ProDash.fill([1, 2, 3], 'a')
+      Promdash.fill([1, 2, 3], 'a')
         .should.eventually.eql(['a', 'a', 'a'])
     ))
 
     it('fills an array of undefined values', () => (
-      ProDash.fill(Array(3), 2)
+      Promdash.fill(Array(3), 2)
         .should.eventually.eql([2, 2, 2])
     ))
 
     it('fills a range of an array', () => (
-      ProDash.fill([4, 6, 8], '*', 1, 2)
+      Promdash.fill([4, 6, 8], '*', 1, 2)
         .should.eventually.eql([4, '*', 8])
     ))
   })
@@ -395,22 +395,22 @@ describe('Lodash integration', () => {
     })
 
     it('can take a function as a predicate', () => (
-      ProDash.findIndex(users, chr => chr.user === 'barney')
+      Promdash.findIndex(users, chr => chr.user === 'barney')
         .should.eventually.equal(0)
     ))
 
     it('works using the `_.matches` callback shorthand', () => (
-      ProDash.findIndex(users, { 'user': 'fred', 'active': false })
+      Promdash.findIndex(users, { 'user': 'fred', 'active': false })
         .should.eventually.equal(1)
     ))
 
     it('works using the `_.matchesProperty` callback shorthand', () => (
-      ProDash.findIndex(users, ['active', false])
+      Promdash.findIndex(users, ['active', false])
         .should.eventually.equal(0)
     ))
 
     it('works using the `_.property` callback shorthand', () => (
-      ProDash.findIndex(users, 'active')
+      Promdash.findIndex(users, 'active')
         .should.eventually.equal(2)
     ))
   })
@@ -463,22 +463,22 @@ describe('Lodash integration', () => {
     })
 
     it('can take a function as a predicate', () => (
-      ProDash.findLastIndex(users, chr => chr.user === 'pebbles')
+      Promdash.findLastIndex(users, chr => chr.user === 'pebbles')
         .should.eventually.equal(2)
     ))
 
     it('works using the `_.matches` callback shorthand', () => (
-      ProDash.findLastIndex(users, { 'user': 'barney', 'active': true })
+      Promdash.findLastIndex(users, { 'user': 'barney', 'active': true })
         .should.eventually.equal(0)
     ))
 
     it('works using the `_.matchesProperty` callback shorthand', () => (
-      ProDash.findLastIndex(users, ['active', false])
+      Promdash.findLastIndex(users, ['active', false])
         .should.eventually.equal(2)
     ))
 
     it('works using the `_.property` callback shorthand', () => (
-      ProDash.findLastIndex(users, 'active')
+      Promdash.findLastIndex(users, 'active')
         .should.eventually.equal(0)
     ))
   })
@@ -499,12 +499,12 @@ describe('Lodash integration', () => {
 
   describe('.first(array)', () => {
     it('returns the first element', () => (
-      ProDash.first([1, 2, 3])
+      Promdash.first([1, 2, 3])
         .should.eventually.equal(1)
     ))
 
     it('return undefined if there are no elements', () => (
-      ProDash.first([])
+      Promdash.first([])
         .should.eventually.be.undefined
     ))
   })
@@ -525,12 +525,12 @@ describe('Lodash integration', () => {
 
   describe('.flatten(array, [isDeep])', () => {
     it('in shallow mode', () => (
-      ProDash.flatten([1, [2, 3, [4]]])
+      Promdash.flatten([1, [2, 3, [4]]])
         .should.eventually.eql([1, 2, 3, [4]])
     ))
 
     it('in deep mode', () => (
-      ProDash.flattenDeep([1, [2, 3, [4]]])
+      Promdash.flattenDeep([1, [2, 3, [4]]])
         .should.eventually.eql([1, 2, 3, 4])
     ))
   })
