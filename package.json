@@ -8,11 +8,14 @@
     "url": "https://github.com/johngeorgewright/promdash"
   },
   "scripts": {
-    "build": "babel -o promdash.js promdash.es",
+    "build": "babel -o promdash.js promdash.src.js",
     "link-jspm": "nodemon -x \"npm run build && jspm link npm:promdash -y\" -e es",
+    "lint": "eslint .",
+    "prepush": "npm test",
     "prepublish": "npm test && npm run build",
-    "test": "mocha --check-leaks --compilers es:babel/register",
-    "test-watch": "mocha --watch --growl --check-leaks --compilers es:babel/register --reporter dot"
+    "spec": "mocha --check-leaks --compilers js:babel-register",
+    "spec-watch": "mocha --watch --growl --check-leaks --compilers js:babel-register --reporter dot",
+    "test": "npm run lint && npm run spec"
   },
   "keywords": [
     "Promise",
@@ -21,15 +24,23 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^5.1.13",
-    "babel-eslint": "^5.0.0-beta6",
-    "chai": "^3.2.0",
-    "chai-as-promised": "^5.0.0",
-    "mocha": "^2.2.4",
-    "sinon": "^1.14.1",
-    "sinon-chai": "^2.7.0"
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.13.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "es6-promise": "^4.0.5",
+    "husky": "^0.12.0",
     "lodash": "*"
   }
 }

@@ -1,4 +1,4 @@
-*.js
+promdash.js
 *.log
 node_modules
 *.swp
