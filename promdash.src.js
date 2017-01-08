@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import {Promise} from 'es6-promise'
 
 export default class Promdash extends Promise {
   then (resolve, reject) {

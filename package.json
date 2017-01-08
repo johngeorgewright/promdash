@@ -11,6 +11,8 @@
     "build": "babel -o promdash.js promdash.src.js",
     "link-jspm": "nodemon -x \"npm run build && jspm link npm:promdash -y\" -e es",
     "lint": "eslint .",
+    "precommit": "npm test",
+    "prepublish": "npm test && npm run build",
     "spec": "mocha --check-leaks --compilers js:babel-register",
     "spec-watch": "mocha --watch --growl --check-leaks --compilers js:babel-register --reporter dot",
     "test": "npm run lint && npm run spec"
@@ -37,6 +39,7 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "es6-promise": "^4.0.5",
     "lodash": "*"
   }
 }

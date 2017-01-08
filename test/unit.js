@@ -27,7 +27,7 @@ describe('Promdash', () => {
   })
 
   describe('.from()', () => {
-    it.only('converts a Promise in to a Promdash instance', () => {
+    it('converts a Promise in to a Promdash instance', () => {
       Promdash.from(Promise.resolve()).should.be.an.instanceOf(Promdash)
     })
 
