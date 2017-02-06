@@ -1,6 +1,8 @@
 Promdash
 ========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/johngeorgewright/promdash.svg)](https://greenkeeper.io/)
+
 Lodash implementation in ES6 Promises.
 
 [![NPM](https://nodei.co/npm/promdash.png)](https://nodei.co/npm/promdash/)
