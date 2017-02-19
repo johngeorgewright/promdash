@@ -1,4 +1,6 @@
+coverage
 promdash.js
 *.log
 node_modules
+.nyc_output
 *.swp
