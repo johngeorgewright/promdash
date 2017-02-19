@@ -10,9 +10,8 @@
   "scripts": {
     "build": "babel -o promdash.js promdash.src.js",
     "lint": "eslint .",
-    "prepush": "npm test",
     "prepublish": "npm test && npm run build",
-    "publish-coverage": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=lcovonly mocha | cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "publish-coverage": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=text-lcov mocha | coveralls",
     "spec": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --check-leaks",
     "spec-watch": "mocha --watch --growl --check-leaks --compilers js:babel-register --reporter dot",
     "test": "npm run lint && npm run spec"
@@ -48,7 +47,6 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
     "mocha": "^3.2.0",
-    "mocha-lcov-reporter": "^1.2.0",
     "nyc": "^10.1.2",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0"
