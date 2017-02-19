@@ -15,7 +15,7 @@
     "publish-coverage": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=lcovonly mocha | cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "spec": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --check-leaks",
     "spec-watch": "mocha --watch --growl --check-leaks --compilers js:babel-register --reporter dot",
-    "test": "npm run lint && npm run cover"
+    "test": "npm run lint && npm run spec"
   },
   "nyc": {
     "include": [
