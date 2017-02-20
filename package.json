@@ -8,11 +8,23 @@
     "url": "https://github.com/johngeorgewright/promdash"
   },
   "scripts": {
-    "build": "babel -o promdash.js promdash.es",
-    "link-jspm": "nodemon -x \"npm run build && jspm link npm:promdash -y\" -e es",
+    "build": "babel -o promdash.js promdash.src.js",
+    "lint": "eslint .",
     "prepublish": "npm test && npm run build",
-    "test": "mocha --check-leaks --compilers es:babel/register",
-    "test-watch": "mocha --watch --growl --check-leaks --compilers es:babel/register --reporter dot"
+    "publish-coverage": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=text-lcov mocha | coveralls",
+    "spec": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --check-leaks",
+    "spec-watch": "mocha --watch --growl --check-leaks --compilers js:babel-register --reporter dot",
+    "test": "npm run lint && npm run spec"
+  },
+  "nyc": {
+    "include": [
+      "promdash.src.js"
+    ],
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
   },
   "keywords": [
     "Promise",
@@ -21,15 +33,27 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^5.1.13",
-    "babel-eslint": "^5.0.0-beta6",
-    "chai": "^3.2.0",
-    "chai-as-promised": "^5.0.0",
-    "mocha": "^2.2.4",
-    "sinon": "^1.14.1",
-    "sinon-chai": "^2.7.0"
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-plugin-istanbul": "^4.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "coveralls": "^2.11.16",
+    "cross-env": "^3.1.4",
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "husky": "^0.13.1",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "es6-promise": "^4.0.5",
     "lodash": "*"
   }
 }

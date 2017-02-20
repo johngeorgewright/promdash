@@ -1,6 +1,12 @@
 Promdash
 ========
 
+[![Coverage Status](https://img.shields.io/coveralls/johngeorgewright/promdash/master.svg?style=flat-square)](https://coveralls.io/github/johngeorgewright/promdash?branch=master)
+[![Build Status](https://img.shields.io/travis/johngeorgewright/promdash/master.svg?style=flat-square)](https://travis-ci.org/johngeorgewright/promdash)
+[![NPM Version](https://img.shields.io/npm/v/promdash.svg?style=flat-square)](https://www.npmjs.com/package/promdash)
+[![Dependencies](https://img.shields.io/gemnasium/johngeorgewright/promdash.svg?style=flat-square)](https://gemnasium.com/github.com/johngeorgewright/promdash)
+[![License](https://img.shields.io/npm/l/promdash.svg?style=flat-square)](https://github.com/johngeorgewright/promdash/blob/master/LICENSE)
+
 Lodash implementation in ES6 Promises.
 
 [![NPM](https://nodei.co/npm/promdash.png)](https://nodei.co/npm/promdash/)
