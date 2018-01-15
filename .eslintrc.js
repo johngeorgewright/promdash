@@ -1,7 +1,3 @@
 module.exports = {
-    "extends": "standard",
-    "plugins": [
-        "standard",
-        "promise"
-    ]
-};
+  extends: 'eslint-config-jgw',
+}

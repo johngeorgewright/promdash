@@ -511,7 +511,7 @@ describe('Lodash integration', () => {
 
   describe('#flatten(array, [isDeep])', () => {
     it('in shallow mode', () => (
-       resolve([1, [2, 3, [4]]])
+      resolve([1, [2, 3, [4]]])
         .flatten()
         .should.eventually.eql([1, 2, 3, [4]])
     ))
