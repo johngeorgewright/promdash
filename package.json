@@ -13,16 +13,14 @@
     "prepublish": "npm test && npm run build",
     "publish-coverage": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=text-lcov mocha | coveralls",
     "spec": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --check-leaks",
-    "spec-watch": "mocha --watch --growl --check-leaks --compilers js:babel-register --reporter dot",
+    "spec-watch": "mocha --watch --growl --check-leaks --require @babel/register --reporter dot",
     "test": "npm run lint && npm run spec"
   },
   "nyc": {
     "include": [
       "promdash.src.js"
     ],
-    "require": [
-      "babel-register"
-    ],
+    "require": ["@babel/register"],
     "sourceMap": false,
     "instrument": false
   },
@@ -33,27 +31,30 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-cli": "^6.18.0",
-    "babel-plugin-istanbul": "^4.0.0",
-    "babel-preset-latest": "^6.16.0",
-    "babel-register": "^6.18.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-istanbul": "^5.2.0",
+    "babel-upgrade": "^1.0.1",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
-    "coveralls": "^2.11.16",
-    "cross-env": "^3.1.4",
-    "eslint": "^3.13.1",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "husky": "^0.13.1",
-    "mocha": "^3.2.0",
-    "nyc": "^10.1.2",
+    "coveralls": "^3.0.6",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^0.13.4",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
     "sinon": "^1.17.7",
-    "sinon-chai": "^2.8.0"
+    "sinon-chai": "^3.3.0"
   },
   "dependencies": {
-    "es6-promise": "^4.0.5",
-    "lodash": "*"
+    "es6-promise": "^4.2.8",
+    "lodash": "^4.17.15"
   }
 }

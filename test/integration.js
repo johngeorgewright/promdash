@@ -352,9 +352,9 @@ describe('Lodash integration', () => {
 
     beforeEach(() => {
       users = [
-        { 'user': 'barney', 'active': false },
-        { 'user': 'fred', 'active': false },
-        { 'user': 'pebbles', 'active': true }
+        { user: 'barney', active: false },
+        { user: 'fred', active: false },
+        { user: 'pebbles', active: true }
       ]
     })
 
@@ -366,7 +366,7 @@ describe('Lodash integration', () => {
 
     it('works using the `_.matches` callback shorthand', () => (
       resolve(users)
-        .findIndex({ 'user': 'fred', 'active': false })
+        .findIndex({ user: 'fred', active: false })
         .should.eventually.equal(1)
     ))
 
@@ -388,9 +388,9 @@ describe('Lodash integration', () => {
 
     beforeEach(() => {
       users = [
-        { 'user': 'barney', 'active': false },
-        { 'user': 'fred', 'active': false },
-        { 'user': 'pebbles', 'active': true }
+        { user: 'barney', active: false },
+        { user: 'fred', active: false },
+        { user: 'pebbles', active: true }
       ]
     })
 
@@ -400,7 +400,7 @@ describe('Lodash integration', () => {
     ))
 
     it('works using the `_.matches` callback shorthand', () => (
-      Promdash.findIndex(users, { 'user': 'fred', 'active': false })
+      Promdash.findIndex(users, { user: 'fred', active: false })
         .should.eventually.equal(1)
     ))
 
@@ -420,9 +420,9 @@ describe('Lodash integration', () => {
 
     beforeEach(() => {
       users = [
-        { 'user': 'barney', 'active': true },
-        { 'user': 'fred', 'active': false },
-        { 'user': 'pebbles', 'active': false }
+        { user: 'barney', active: true },
+        { user: 'fred', active: false },
+        { user: 'pebbles', active: false }
       ]
     })
 
@@ -434,7 +434,7 @@ describe('Lodash integration', () => {
 
     it('works using the `_.matches` callback shorthand', () => (
       resolve(users)
-        .findLastIndex({ 'user': 'barney', 'active': true })
+        .findLastIndex({ user: 'barney', active: true })
         .should.eventually.equal(0)
     ))
 
@@ -456,9 +456,9 @@ describe('Lodash integration', () => {
 
     beforeEach(() => {
       users = [
-        { 'user': 'barney', 'active': true },
-        { 'user': 'fred', 'active': false },
-        { 'user': 'pebbles', 'active': false }
+        { user: 'barney', active: true },
+        { user: 'fred', active: false },
+        { user: 'pebbles', active: false }
       ]
     })
 
@@ -468,7 +468,7 @@ describe('Lodash integration', () => {
     ))
 
     it('works using the `_.matches` callback shorthand', () => (
-      Promdash.findLastIndex(users, { 'user': 'barney', 'active': true })
+      Promdash.findLastIndex(users, { user: 'barney', active: true })
         .should.eventually.equal(0)
     ))
 
@@ -511,7 +511,7 @@ describe('Lodash integration', () => {
 
   describe('#flatten(array, [isDeep])', () => {
     it('in shallow mode', () => (
-       resolve([1, [2, 3, [4]]])
+      resolve([1, [2, 3, [4]]])
         .flatten()
         .should.eventually.eql([1, 2, 3, [4]])
     ))
