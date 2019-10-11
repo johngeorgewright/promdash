@@ -1,6 +1,6 @@
 {
   "name": "promdash",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ES6 implementation of lodash",
   "main": "promdash.js",
   "repository": {
@@ -22,7 +22,7 @@
     }
   },
   "lint-staged": {
-    "*.src.js": [ 
+    "*.src.js": [
       "eslint --quiet --fix",
       "git add"
     ]
