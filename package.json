@@ -16,6 +16,17 @@
     "spec-watch": "mocha --watch --growl --check-leaks --require @babel/register --reporter dot",
     "test": "npm run lint && npm run spec"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.src.js": [ 
+      "eslint --quiet --fix",
+      "git add"
+    ]
+  },
   "nyc": {
     "include": [
       "promdash.src.js"
@@ -39,9 +50,9 @@
     "@babel/register": "^7.0.0",
     "babel-plugin-istanbul": "^5.2.0",
     "babel-upgrade": "^1.0.1",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0",
-    "coveralls": "^3.0.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "coveralls": "^3.0.7",
     "cross-env": "^6.0.3",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
@@ -49,10 +60,11 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^0.13.4",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.2",
     "mocha": "^6.2.1",
     "nyc": "^14.1.1",
-    "sinon": "^1.17.7",
+    "sinon": "^7.5.0",
     "sinon-chai": "^3.3.0"
   },
   "dependencies": {
