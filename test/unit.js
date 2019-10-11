@@ -32,9 +32,7 @@ describe('Promdash', () => {
     })
 
     it('will instantly reject an already rejected promise', () => {
-      const promise = new Promise((resolve, reject) =>
-        reject(new Error())
-      )
+      const promise = new Promise((resolve, reject) => reject(new Error()))
       return Promdash.from(promise).should.be.rejected
     })
 
