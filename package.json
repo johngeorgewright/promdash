@@ -20,7 +20,9 @@
     "include": [
       "promdash.src.js"
     ],
-    "require": ["@babel/register"],
+    "require": [
+      "@babel/register"
+    ],
     "sourceMap": false,
     "instrument": false
   },
