@@ -48,7 +48,7 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/register": "^7.0.0",
-    "babel-plugin-istanbul": "^5.2.0",
+    "babel-plugin-istanbul": "^6.0.0",
     "babel-upgrade": "^1.0.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
