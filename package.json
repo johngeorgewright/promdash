@@ -68,7 +68,6 @@
     "sinon-chai": "^3.3.0"
   },
   "dependencies": {
-    "es6-promise": "^4.2.8",
     "lodash": "^4.17.15"
   }
 }

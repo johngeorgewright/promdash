@@ -51,12 +51,6 @@ describe('Promdash', () => {
     })
   })
 
-  describe('.reject()', () => {
-    it('returns an instance of Promdash', () => {
-      Promdash.reject(new Error()).should.be.an.instanceOf(Promdash)
-    })
-  })
-
   describe('.all()', () => {
     it('returns an instance of Promdash', () => {
       Promdash.all([]).should.be.an.instanceOf(Promdash)
