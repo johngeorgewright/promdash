@@ -3813,7 +3813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.4":
+"husky@npm:7.0.4":
   version: 7.0.4
   resolution: "husky@npm:7.0.4"
   bin:
@@ -5650,7 +5650,7 @@ __metadata:
     eslint-plugin-import: 2.25.3
     eslint-plugin-node: ^11.1.0
     eslint-plugin-promise: ^5.2.0
-    husky: ^7.0.4
+    husky: 7.0.4
     lint-staged: ^12.1.2
     lodash: ^4.17.21
     mocha: ^9.1.3
