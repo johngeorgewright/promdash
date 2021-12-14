@@ -10,21 +10,15 @@
   "scripts": {
     "build": "babel -o promdash.js promdash.src.js",
     "lint": "eslint .",
-    "prepublish": "npm test && npm run build",
+    "prepublish": "yarn test && yarn build",
     "publish-coverage": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=text-lcov mocha | coveralls",
     "spec": "rm -rf coverage && cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --check-leaks",
     "spec-watch": "mocha --watch --growl --check-leaks --require @babel/register --reporter dot",
-    "test": "npm run lint && npm run spec"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "test": "yarn lint && yarn spec"
   },
   "lint-staged": {
     "*.src.js": [
-      "eslint --quiet --fix",
-      "git add"
+      "eslint --quiet --fix"
     ]
   },
   "nyc": {
@@ -44,30 +38,32 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/register": "^7.0.0",
-    "babel-plugin-istanbul": "^6.0.0",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/eslint-parser": "7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/register": "^7.16.5",
+    "babel-plugin-istanbul": "^6.1.1",
     "babel-upgrade": "^1.0.1",
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
-    "coveralls": "^3.0.7",
-    "cross-env": "^7.0.2",
-    "eslint": "^7.10.0",
-    "eslint-config-standard": "^16.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "coveralls": "^3.1.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.25.3",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^5.0.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.4.0",
-    "mocha": "^8.1.3",
+    "eslint-plugin-promise": "^5.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "lodash": "^4.17.21",
+    "mocha": "^9.1.3",
     "nyc": "^15.1.0",
-    "sinon": "^10.0.0",
-    "sinon-chai": "^3.3.0"
+    "sinon": "^12.0.1",
+    "sinon-chai": "^3.7.0"
   },
-  "dependencies": {
-    "lodash": "^4.17.15"
-  }
+  "peerDependencies": {
+    "lodash": "*"
+  },
+  "packageManager": "yarn@3.1.1"
 }
