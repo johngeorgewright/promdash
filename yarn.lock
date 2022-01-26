@@ -3159,18 +3159,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:4.3.5":
-  version: 4.3.5
-  resolution: "chai@npm:4.3.5"
+"chai@npm:4.3.6":
+  version: 4.3.6
+  resolution: "chai@npm:4.3.6"
   dependencies:
     assertion-error: ^1.1.0
     check-error: ^1.0.2
     deep-eql: ^3.0.1
     get-func-name: ^2.0.0
-    loupe: ^2.3.0
+    loupe: ^2.3.1
     pathval: ^1.1.1
     type-detect: ^4.0.5
-  checksum: 9514b03fa3fd4331d31cb6067d83b9ccb338e293d3686b2f431fd442e457e9fd8a999d4c9435a025c0e4af8795f047eb54294516d5f33cfe2d1bd6bfbcd911db
+  checksum: acff93fd537f96d4a4d62dd83810285dffcfccb5089e1bf2a1205b28ec82d93dff551368722893cf85004282df10ee68802737c33c90c5493957ed449ed7ce71
   languageName: node
   linkType: hard
 
@@ -6602,13 +6602,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loupe@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "loupe@npm:2.3.0"
+"loupe@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "loupe@npm:2.3.1"
   dependencies:
     get-func-name: ^2.0.0
-    type-detect: ^4.0.8
-  checksum: 376a08e174e87973ab74751dd07f05c9814a66a47fd458314478a03a1e38746e18104005591676a19c6368d8e057bbf68757f235c7210a39e78b9eefae5563e3
+  checksum: 11b4c4c9eb271b60d4d85e2ef344135d9043575e105045d1e08f10c0eca4b753df4dcfd9e1c0cbf7e19b25556dee6da16633005c47b9a925e293867c66b79f45
   languageName: node
   linkType: hard
 
@@ -8129,7 +8128,7 @@ __metadata:
     "@semantic-release/release-notes-generator": 10.0.3
     babel-plugin-istanbul: 6.1.1
     babel-upgrade: 1.0.1
-    chai: 4.3.5
+    chai: 4.3.6
     chai-as-promised: 7.1.1
     coveralls: 3.1.1
     cross-env: 7.0.3
