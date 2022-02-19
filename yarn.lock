@@ -7035,9 +7035,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mocha@npm:9.2.0":
-  version: 9.2.0
-  resolution: "mocha@npm:9.2.0"
+"mocha@npm:9.2.1":
+  version: 9.2.1
+  resolution: "mocha@npm:9.2.1"
   dependencies:
     "@ungap/promise-all-settled": 1.1.2
     ansi-colors: 4.1.1
@@ -7066,7 +7066,7 @@ __metadata:
   bin:
     _mocha: bin/_mocha
     mocha: bin/mocha
-  checksum: 49efc4724cf17087c7e107bc8f6890db24525e6dcc153b801da58de3c2a2f940e22f7600ef195b8ac62a0dfd7baee5cf289fc4641a6b1fdf8bc9c819efc1a8ba
+  checksum: 10debdf2ee2232368852d80d8a7650a2c10d2bf5f47022c4d8111323b7fcd3115b2153f760b841d39207347a4d2df602fe96013f855587d80ff23332261b260e
   languageName: node
   linkType: hard
 
@@ -8197,7 +8197,7 @@ __metadata:
     husky: 7.0.4
     lint-staged: 12.3.4
     lodash: 4.17.21
-    mocha: 9.2.0
+    mocha: 9.2.1
     nyc: 15.1.0
     semantic-release: 19.0.2
     sinon: 13.0.1
