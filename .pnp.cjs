@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:7.0.4"],
             ["lint-staged", "npm:12.3.4"],
             ["lodash", "npm:4.17.21"],
-            ["mocha", "npm:9.2.0"],
+            ["mocha", "npm:9.2.1"],
             ["nyc", "npm:15.1.0"],
             ["semantic-release", "npm:19.0.2"],
             ["sinon", "npm:13.0.1"],
@@ -5181,13 +5181,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9", {
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-6cfa7ae8cd/0/cache/debug-npm-2.6.9-7d4cb597dc-d2f51589ca.zip/node_modules/debug/",
+        ["virtual:29636e12a0a7ec2e9a924b61df8922c1d41a1cb7c34a656e351bfd63d5a19aa4c9054ee77cd2e4af264a763655d4d5c5fdade56f9db4eda9d8869952016b14b1#npm:4.3.3", {
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-c8108de7e6/0/cache/debug-npm-4.3.3-710fd4cc7f-14472d56fe.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
+            ["debug", "virtual:29636e12a0a7ec2e9a924b61df8922c1d41a1cb7c34a656e351bfd63d5a19aa4c9054ee77cd2e4af264a763655d4d5c5fdade56f9db4eda9d8869952016b14b1#npm:4.3.3"],
             ["@types/supports-color", null],
-            ["ms", "npm:2.0.0"],
-            ["supports-color", null]
+            ["ms", "npm:2.1.2"],
+            ["supports-color", "npm:8.1.1"]
           ],
           "packagePeers": [
             "@types/supports-color",
@@ -5195,13 +5195,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:4bf488a12f30cd173e8533a259e1f60e96de7dd329cdc407a6372b2f6da571c866aa770a2d7789a2b186aa2b72720a862c63549628f178573604692dc61d7c98#npm:4.3.3", {
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-d0240b1fa4/0/cache/debug-npm-4.3.3-710fd4cc7f-14472d56fe.zip/node_modules/debug/",
+        ["virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9", {
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-6cfa7ae8cd/0/cache/debug-npm-2.6.9-7d4cb597dc-d2f51589ca.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:4bf488a12f30cd173e8533a259e1f60e96de7dd329cdc407a6372b2f6da571c866aa770a2d7789a2b186aa2b72720a862c63549628f178573604692dc61d7c98#npm:4.3.3"],
+            ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
             ["@types/supports-color", null],
-            ["ms", "npm:2.1.2"],
-            ["supports-color", "npm:8.1.1"]
+            ["ms", "npm:2.0.0"],
+            ["supports-color", null]
           ],
           "packagePeers": [
             "@types/supports-color",
@@ -8865,15 +8865,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mocha", [
-        ["npm:9.2.0", {
-          "packageLocation": "./.yarn/cache/mocha-npm-9.2.0-4bf488a12f-49efc4724c.zip/node_modules/mocha/",
+        ["npm:9.2.1", {
+          "packageLocation": "./.yarn/cache/mocha-npm-9.2.1-29636e12a0-10debdf2ee.zip/node_modules/mocha/",
           "packageDependencies": [
-            ["mocha", "npm:9.2.0"],
+            ["mocha", "npm:9.2.1"],
             ["@ungap/promise-all-settled", "npm:1.1.2"],
             ["ansi-colors", "npm:4.1.1"],
             ["browser-stdout", "npm:1.3.1"],
             ["chokidar", "npm:3.5.3"],
-            ["debug", "virtual:4bf488a12f30cd173e8533a259e1f60e96de7dd329cdc407a6372b2f6da571c866aa770a2d7789a2b186aa2b72720a862c63549628f178573604692dc61d7c98#npm:4.3.3"],
+            ["debug", "virtual:29636e12a0a7ec2e9a924b61df8922c1d41a1cb7c34a656e351bfd63d5a19aa4c9054ee77cd2e4af264a763655d4d5c5fdade56f9db4eda9d8869952016b14b1#npm:4.3.3"],
             ["diff", "npm:5.0.0"],
             ["escape-string-regexp", "npm:4.0.0"],
             ["find-up", "npm:5.0.0"],
@@ -10111,7 +10111,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:7.0.4"],
             ["lint-staged", "npm:12.3.4"],
             ["lodash", "npm:4.17.21"],
-            ["mocha", "npm:9.2.0"],
+            ["mocha", "npm:9.2.1"],
             ["nyc", "npm:15.1.0"],
             ["semantic-release", "npm:19.0.2"],
             ["sinon", "npm:13.0.1"],
