@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-n", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:15.2.0"],\
             ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0"],\
             ["husky", "npm:8.0.1"],\
-            ["lint-staged", "npm:12.4.3"],\
+            ["lint-staged", "npm:12.5.0"],\
             ["lodash", "npm:4.17.21"],\
             ["mocha", "npm:9.2.2"],\
             ["nyc", "npm:15.1.0"],\
@@ -5482,6 +5482,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:05e8fba62f5b8b95dcd20a407717799adc18e13049a04f1da8af9fcbc091768cf22b55c4cf623f5b62428f3e0c145b7915b7cdb533ca1226ad497910fe4fed78#npm:4.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-9b270ea96e/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
+          "packageDependencies": [\
+            ["debug", "virtual:05e8fba62f5b8b95dcd20a407717799adc18e13049a04f1da8af9fcbc091768cf22b55c4cf623f5b62428f3e0c145b7915b7cdb533ca1226ad497910fe4fed78#npm:4.3.4"],\
+            ["@types/supports-color", null],\
+            ["ms", "npm:2.1.2"],\
+            ["supports-color", "npm:9.2.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/supports-color",\
+            "supports-color"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9", {\
           "packageLocation": "./.yarn/__virtual__/debug-virtual-6cfa7ae8cd/0/cache/debug-npm-2.6.9-7d4cb597dc-d2f51589ca.zip/node_modules/debug/",\
           "packageDependencies": [\
@@ -5503,20 +5517,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
             ["supports-color", null]\
-          ],\
-          "packagePeers": [\
-            "@types/supports-color",\
-            "supports-color"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:cd1b6cecb9372afabbce9a859c24c812055d39c17a2b6eecdccd0ea5567c67d29b67dd6a6c3a8ab8caca6c8d8ab0e6f5276ed0fdb7b12ca5fc120dce120a80fd#npm:4.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-108765ad6e/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
-          "packageDependencies": [\
-            ["debug", "virtual:cd1b6cecb9372afabbce9a859c24c812055d39c17a2b6eecdccd0ea5567c67d29b67dd6a6c3a8ab8caca6c8d8ab0e6f5276ed0fdb7b12ca5fc120dce120a80fd#npm:4.3.4"],\
-            ["@types/supports-color", null],\
-            ["ms", "npm:2.1.2"],\
-            ["supports-color", "npm:9.2.2"]\
           ],\
           "packagePeers": [\
             "@types/supports-color",\
@@ -8578,17 +8578,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lint-staged", [\
-        ["npm:12.4.3", {\
-          "packageLocation": "./.yarn/cache/lint-staged-npm-12.4.3-cd1b6cecb9-db5dfd14e9.zip/node_modules/lint-staged/",\
+        ["npm:12.5.0", {\
+          "packageLocation": "./.yarn/cache/lint-staged-npm-12.5.0-05e8fba62f-ac203917be.zip/node_modules/lint-staged/",\
           "packageDependencies": [\
-            ["lint-staged", "npm:12.4.3"],\
+            ["lint-staged", "npm:12.5.0"],\
             ["cli-truncate", "npm:3.1.0"],\
             ["colorette", "npm:2.0.16"],\
             ["commander", "npm:9.3.0"],\
-            ["debug", "virtual:cd1b6cecb9372afabbce9a859c24c812055d39c17a2b6eecdccd0ea5567c67d29b67dd6a6c3a8ab8caca6c8d8ab0e6f5276ed0fdb7b12ca5fc120dce120a80fd#npm:4.3.4"],\
+            ["debug", "virtual:05e8fba62f5b8b95dcd20a407717799adc18e13049a04f1da8af9fcbc091768cf22b55c4cf623f5b62428f3e0c145b7915b7cdb533ca1226ad497910fe4fed78#npm:4.3.4"],\
             ["execa", "npm:5.1.1"],\
             ["lilconfig", "npm:2.0.5"],\
-            ["listr2", "virtual:cd1b6cecb9372afabbce9a859c24c812055d39c17a2b6eecdccd0ea5567c67d29b67dd6a6c3a8ab8caca6c8d8ab0e6f5276ed0fdb7b12ca5fc120dce120a80fd#npm:4.0.5"],\
+            ["listr2", "virtual:05e8fba62f5b8b95dcd20a407717799adc18e13049a04f1da8af9fcbc091768cf22b55c4cf623f5b62428f3e0c145b7915b7cdb533ca1226ad497910fe4fed78#npm:4.0.5"],\
             ["micromatch", "npm:4.0.5"],\
             ["normalize-path", "npm:3.0.0"],\
             ["object-inspect", "npm:1.12.2"],\
@@ -8608,10 +8608,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:cd1b6cecb9372afabbce9a859c24c812055d39c17a2b6eecdccd0ea5567c67d29b67dd6a6c3a8ab8caca6c8d8ab0e6f5276ed0fdb7b12ca5fc120dce120a80fd#npm:4.0.5", {\
-          "packageLocation": "./.yarn/__virtual__/listr2-virtual-85a042de26/0/cache/listr2-npm-4.0.5-e9e44decc1-7af31851ab.zip/node_modules/listr2/",\
+        ["virtual:05e8fba62f5b8b95dcd20a407717799adc18e13049a04f1da8af9fcbc091768cf22b55c4cf623f5b62428f3e0c145b7915b7cdb533ca1226ad497910fe4fed78#npm:4.0.5", {\
+          "packageLocation": "./.yarn/__virtual__/listr2-virtual-2e88784766/0/cache/listr2-npm-4.0.5-e9e44decc1-7af31851ab.zip/node_modules/listr2/",\
           "packageDependencies": [\
-            ["listr2", "virtual:cd1b6cecb9372afabbce9a859c24c812055d39c17a2b6eecdccd0ea5567c67d29b67dd6a6c3a8ab8caca6c8d8ab0e6f5276ed0fdb7b12ca5fc120dce120a80fd#npm:4.0.5"],\
+            ["listr2", "virtual:05e8fba62f5b8b95dcd20a407717799adc18e13049a04f1da8af9fcbc091768cf22b55c4cf623f5b62428f3e0c145b7915b7cdb533ca1226ad497910fe4fed78#npm:4.0.5"],\
             ["@types/enquirer", null],\
             ["cli-truncate", "npm:2.1.0"],\
             ["colorette", "npm:2.0.16"],\
@@ -10526,7 +10526,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-n", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:15.2.0"],\
             ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0"],\
             ["husky", "npm:8.0.1"],\
-            ["lint-staged", "npm:12.4.3"],\
+            ["lint-staged", "npm:12.5.0"],\
             ["lodash", "npm:4.17.21"],\
             ["mocha", "npm:9.2.2"],\
             ["nyc", "npm:15.1.0"],\
