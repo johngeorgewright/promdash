@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-standard", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:17.0.0"],\
             ["eslint-plugin-import", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:2.26.0"],\
             ["eslint-plugin-n", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:15.2.5"],\
-            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0"],\
+            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.1"],\
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:13.0.3"],\
             ["lodash", "npm:4.17.21"],\
@@ -6198,7 +6198,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.22.0"],\
             ["eslint-plugin-import", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:2.26.0"],\
             ["eslint-plugin-n", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:15.2.5"],\
-            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0"]\
+            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.1"]\
           ],\
           "packagePeers": [\
             "@types/eslint-plugin-import",\
@@ -6354,17 +6354,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-plugin-promise", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/eslint-plugin-promise-npm-6.0.0-5a0de876d5-7e761507c5.zip/node_modules/eslint-plugin-promise/",\
+        ["npm:6.0.1", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-promise-npm-6.0.1-44f44fa21c-c1bb3c2e59.zip/node_modules/eslint-plugin-promise/",\
           "packageDependencies": [\
-            ["eslint-plugin-promise", "npm:6.0.0"]\
+            ["eslint-plugin-promise", "npm:6.0.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-plugin-promise-virtual-75515575de/0/cache/eslint-plugin-promise-npm-6.0.0-5a0de876d5-7e761507c5.zip/node_modules/eslint-plugin-promise/",\
+        ["virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-promise-virtual-9bdf806ff6/0/cache/eslint-plugin-promise-npm-6.0.1-44f44fa21c-c1bb3c2e59.zip/node_modules/eslint-plugin-promise/",\
           "packageDependencies": [\
-            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0"],\
+            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.1"],\
             ["@types/eslint", null],\
             ["eslint", "npm:8.22.0"]\
           ],\
@@ -10804,7 +10804,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-standard", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:17.0.0"],\
             ["eslint-plugin-import", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:2.26.0"],\
             ["eslint-plugin-n", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:15.2.5"],\
-            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.0"],\
+            ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.0.1"],\
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:13.0.3"],\
             ["lodash", "npm:4.17.21"],\
@@ -16185,7 +16185,8 @@ class VirtualFS extends ProxiedFS {
   }
 }
 
-const ZIP_FD = 2147483648;
+const ZIP_MASK = 4278190080;
+const ZIP_MAGIC = 704643072;
 const getArchivePart = (path, extension) => {
   let idx = path.indexOf(extension);
   if (idx <= 0)
@@ -16262,7 +16263,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return this.baseFs.resolve(p);
   }
   remapFd(zipFs, fd) {
-    const remappedFd = this.nextFd++ | ZIP_FD;
+    const remappedFd = this.nextFd++ | ZIP_MAGIC;
     this.fdMap.set(remappedFd, [zipFs, fd]);
     return remappedFd;
   }
@@ -16299,7 +16300,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async readPromise(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return await this.baseFs.readPromise(fd, buffer, offset, length, position);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16308,7 +16309,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return await zipFs.readPromise(realFd, buffer, offset, length, position);
   }
   readSync(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.readSync(fd, buffer, offset, length, position);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16317,7 +16318,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.readSync(realFd, buffer, offset, length, position);
   }
   async writePromise(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_FD) === 0) {
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC) {
       if (typeof buffer === `string`) {
         return await this.baseFs.writePromise(fd, buffer, offset);
       } else {
@@ -16335,7 +16336,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     }
   }
   writeSync(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_FD) === 0) {
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC) {
       if (typeof buffer === `string`) {
         return this.baseFs.writeSync(fd, buffer, offset);
       } else {
@@ -16353,7 +16354,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     }
   }
   async closePromise(fd) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return await this.baseFs.closePromise(fd);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16363,7 +16364,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return await zipFs.closePromise(realFd);
   }
   closeSync(fd) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.closeSync(fd);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16459,7 +16460,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async fstatPromise(fd, opts) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.fstatPromise(fd, opts);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16468,7 +16469,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.fstatPromise(realFd, opts);
   }
   fstatSync(fd, opts) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.fstatSync(fd, opts);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16491,7 +16492,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async fchmodPromise(fd, mask) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.fchmodPromise(fd, mask);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16500,7 +16501,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.fchmodPromise(realFd, mask);
   }
   fchmodSync(fd, mask) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.fchmodSync(fd, mask);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16821,7 +16822,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async ftruncatePromise(fd, len) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.ftruncatePromise(fd, len);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -16830,7 +16831,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.ftruncatePromise(realFd, len);
   }
   ftruncateSync(fd, len) {
-    if ((fd & ZIP_FD) === 0)
+    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
       return this.baseFs.ftruncateSync(fd, len);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
