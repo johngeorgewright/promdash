@@ -60,7 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:10.0.0"],\
             ["nyc", "npm:15.1.0"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["sinon", "npm:14.0.0"],\
+            ["sinon", "npm:14.0.1"],\
             ["sinon-chai", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:3.7.0"]\
           ],\
           "linkType": "SOFT"\
@@ -10943,7 +10943,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:10.0.0"],\
             ["nyc", "npm:15.1.0"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["sinon", "npm:14.0.0"],\
+            ["sinon", "npm:14.0.1"],\
             ["sinon-chai", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:3.7.0"]\
           ],\
           "linkType": "SOFT"\
@@ -11836,10 +11836,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sinon", [\
-        ["npm:14.0.0", {\
-          "packageLocation": "./.yarn/cache/sinon-npm-14.0.0-8c536094d3-b2aeeb0cdc.zip/node_modules/sinon/",\
+        ["npm:14.0.1", {\
+          "packageLocation": "./.yarn/cache/sinon-npm-14.0.1-1a3303a5d1-55dd8dc9f3.zip/node_modules/sinon/",\
           "packageDependencies": [\
-            ["sinon", "npm:14.0.0"],\
+            ["sinon", "npm:14.0.1"],\
             ["@sinonjs/commons", "npm:1.8.3"],\
             ["@sinonjs/fake-timers", "npm:9.1.2"],\
             ["@sinonjs/samsam", "npm:6.1.1"],\
@@ -11865,7 +11865,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai", null],\
             ["@types/sinon", null],\
             ["chai", "npm:4.3.6"],\
-            ["sinon", "npm:14.0.0"]\
+            ["sinon", "npm:14.0.1"]\
           ],\
           "packagePeers": [\
             "@types/chai",\
