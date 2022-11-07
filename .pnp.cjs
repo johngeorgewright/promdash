@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:10.0.3"],\
             ["babel-plugin-istanbul", "npm:6.1.1"],\
             ["babel-upgrade", "npm:1.0.1"],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
             ["coveralls", "npm:3.1.1"],\
             ["cross-env", "npm:7.0.3"],\
@@ -5035,13 +5035,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai", [\
-        ["npm:4.3.6", {\
-          "packageLocation": "./.yarn/cache/chai-npm-4.3.6-dba90e4b0b-acff93fd53.zip/node_modules/chai/",\
+        ["npm:4.3.7", {\
+          "packageLocation": "./.yarn/cache/chai-npm-4.3.7-48fdcf2584-0bba7d2678.zip/node_modules/chai/",\
           "packageDependencies": [\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["assertion-error", "npm:1.1.0"],\
             ["check-error", "npm:1.0.2"],\
-            ["deep-eql", "npm:3.0.1"],\
+            ["deep-eql", "npm:4.1.2"],\
             ["get-func-name", "npm:2.0.0"],\
             ["loupe", "npm:2.3.1"],\
             ["pathval", "npm:1.1.1"],\
@@ -5063,7 +5063,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
             ["@types/chai", null],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["check-error", "npm:1.0.2"]\
           ],\
           "packagePeers": [\
@@ -5822,10 +5822,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["deep-eql", [\
-        ["npm:3.0.1", {\
-          "packageLocation": "./.yarn/cache/deep-eql-npm-3.0.1-9a66c09c65-4f4c9fb79e.zip/node_modules/deep-eql/",\
+        ["npm:4.1.2", {\
+          "packageLocation": "./.yarn/cache/deep-eql-npm-4.1.2-7017c4a2dc-1832456c5f.zip/node_modules/deep-eql/",\
           "packageDependencies": [\
-            ["deep-eql", "npm:3.0.1"],\
+            ["deep-eql", "npm:4.1.2"],\
             ["type-detect", "npm:4.0.8"]\
           ],\
           "linkType": "HARD"\
@@ -10855,7 +10855,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:10.0.3"],\
             ["babel-plugin-istanbul", "npm:6.1.1"],\
             ["babel-upgrade", "npm:1.0.1"],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
             ["coveralls", "npm:3.1.1"],\
             ["cross-env", "npm:7.0.3"],\
@@ -11791,7 +11791,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sinon-chai", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:3.7.0"],\
             ["@types/chai", null],\
             ["@types/sinon", null],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["sinon", "npm:14.0.1"]\
           ],\
           "packagePeers": [\
