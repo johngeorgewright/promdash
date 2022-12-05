@@ -4821,9 +4821,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:15.5.1":
-  version: 15.5.1
-  resolution: "eslint-plugin-n@npm:15.5.1"
+"eslint-plugin-n@npm:15.5.2":
+  version: 15.5.2
+  resolution: "eslint-plugin-n@npm:15.5.2"
   dependencies:
     builtins: ^5.0.1
     eslint-plugin-es: ^4.1.0
@@ -4835,7 +4835,7 @@ __metadata:
     semver: ^7.3.8
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: b97e547fd5429a564c84aace2803d82f4b031e0c4a8896fbe06ab2a116618d08e97435edd9f58e380771adc2ad43d53039e87fb0c91a007425a1ae412708714a
+  checksum: 97c9a48eee948d227918a4b0d9788c76d009a3e398c3c3f8d0509acbc57a48757e901a2f299893e93951e7f08316f9b5590699603337818c682317ed2cb95e62
   languageName: node
   linkType: hard
 
@@ -8931,7 +8931,7 @@ __metadata:
     eslint: 8.29.0
     eslint-config-standard: 17.0.0
     eslint-plugin-import: 2.26.0
-    eslint-plugin-n: 15.5.1
+    eslint-plugin-n: 15.5.2
     eslint-plugin-promise: 6.1.1
     husky: 8.0.2
     lint-staged: 13.1.0
