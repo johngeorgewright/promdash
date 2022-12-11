@@ -7708,9 +7708,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mocha@npm:10.1.0":
-  version: 10.1.0
-  resolution: "mocha@npm:10.1.0"
+"mocha@npm:10.2.0":
+  version: 10.2.0
+  resolution: "mocha@npm:10.2.0"
   dependencies:
     ansi-colors: 4.1.1
     browser-stdout: 1.3.1
@@ -7736,7 +7736,7 @@ __metadata:
   bin:
     _mocha: bin/_mocha
     mocha: bin/mocha.js
-  checksum: c64c7305769e09ae5559c1cd31eae8b4c7c0e19e328cf54d1374e5555a0f01e3d5dced99882911d927e0a9d0c613d0644a1750b848a2848fb7dcf4684f97f65f
+  checksum: 406c45eab122ffd6ea2003c2f108b2bc35ba036225eee78e0c784b6fa2c7f34e2b13f1dbacef55a4fdf523255d76e4f22d1b5aacda2394bd11666febec17c719
   languageName: node
   linkType: hard
 
@@ -8936,7 +8936,7 @@ __metadata:
     husky: 8.0.2
     lint-staged: 13.1.0
     lodash: 4.17.21
-    mocha: 10.1.0
+    mocha: 10.2.0
     nyc: 15.1.0
     semantic-release: 19.0.5
     sinon: 14.0.2
