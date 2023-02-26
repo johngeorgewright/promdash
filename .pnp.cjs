@@ -3476,7 +3476,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/map-workspaces", "npm:2.0.0"],\
             ["@npmcli/name-from-folder", "npm:1.0.1"],\
             ["glob", "npm:7.2.0"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["read-package-json-fast", "npm:2.0.3"]\
           ],\
           "linkType": "HARD"\
@@ -7538,7 +7538,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs.realpath", "npm:1.0.0"],\
             ["inflight", "npm:1.0.6"],\
             ["inherits", "npm:2.0.4"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["once", "npm:1.4.0"],\
             ["path-is-absolute", "npm:1.0.1"]\
           ],\
@@ -8056,7 +8056,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ignore-walk-npm-3.0.4-dc5095baa0-9e9c5ef6c3.zip/node_modules/ignore-walk/",\
           "packageDependencies": [\
             ["ignore-walk", "npm:3.0.4"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -8064,7 +8064,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ignore-walk-npm-4.0.1-e301e7e75f-903cd5cb68.zip/node_modules/ignore-walk/",\
           "packageDependencies": [\
             ["ignore-walk", "npm:4.0.1"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9151,7 +9151,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/installed-package-contents", "npm:1.0.7"],\
             ["binary-extensions", "npm:2.2.0"],\
             ["diff", "npm:5.0.0"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:3.1.2"],\
             ["npm-package-arg", "npm:8.1.5"],\
             ["pacote", "npm:11.3.5"],\
             ["tar", "npm:6.1.11"]\
@@ -9807,14 +9807,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["minimatch", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/minimatch-npm-3.0.4-6e76f51c23-66ac295f8a.zip/node_modules/minimatch/",\
-          "packageDependencies": [\
-            ["minimatch", "npm:3.0.4"],\
-            ["brace-expansion", "npm:1.1.11"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.1.2", {\
           "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-c154e56640.zip/node_modules/minimatch/",\
           "packageDependencies": [\
@@ -12913,7 +12905,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["test-exclude", "npm:6.0.0"],\
             ["@istanbuljs/schema", "npm:0.1.3"],\
             ["glob", "npm:7.2.0"],\
-            ["minimatch", "npm:3.0.4"]\
+            ["minimatch", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
