@@ -168,7 +168,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["convert-source-map", "npm:1.8.0"],\
             ["debug", "virtual:43ce84b0b589b5a533be3fe2ab9a40d1552216c702926597d12bbd877e40ccecc670db949f3d4280b3a3e8c5a708916d0cf527b7c1c15d52e25bce5eeb5d8a75#npm:4.3.3"],\
             ["gensync", "npm:1.0.0-beta.2"],\
-            ["json5", "npm:2.2.0"],\
+            ["json5", "npm:2.2.3"],\
             ["semver", "npm:6.3.0"],\
             ["source-map", "npm:0.5.7"]\
           ],\
@@ -4860,7 +4860,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["diff", "npm:4.0.2"],\
             ["globby", "npm:9.2.0"],\
             ["has-yarn", "npm:2.1.0"],\
-            ["json5", "npm:2.2.0"],\
+            ["json5", "npm:2.2.3"],\
             ["pify", "npm:4.0.1"],\
             ["read-pkg-up", "npm:5.0.0"],\
             ["semver", "npm:5.7.1"],\
@@ -8993,18 +8993,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["json5", [\
-        ["npm:1.0.1", {\
-          "packageLocation": "./.yarn/cache/json5-npm-1.0.1-647fc8794b-e76ea23dbb.zip/node_modules/json5/",\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/json5-npm-1.0.2-9607f93e30-866458a8c5.zip/node_modules/json5/",\
           "packageDependencies": [\
-            ["json5", "npm:1.0.1"],\
-            ["minimist", "npm:1.2.5"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/json5-npm-2.2.0-da49dc7cb5-e88fc5274b.zip/node_modules/json5/",\
-          "packageDependencies": [\
-            ["json5", "npm:2.2.0"],\
+            ["json5", "npm:1.0.2"],\
             ["minimist", "npm:1.2.5"]\
           ],\
           "linkType": "HARD"\
@@ -13077,7 +13069,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["tsconfig-paths", "npm:3.14.1"],\
             ["@types/json5", "npm:0.0.29"],\
-            ["json5", "npm:1.0.1"],\
+            ["json5", "npm:1.0.2"],\
             ["minimist", "npm:1.2.6"],\
             ["strip-bom", "npm:3.0.0"]\
           ],\
