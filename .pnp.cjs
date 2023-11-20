@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@babel/cli", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.0"],\
+            ["@babel/cli", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.4"],\
             ["@babel/core", "npm:7.23.3"],\
             ["@babel/eslint-parser", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.3"],\
             ["@babel/preset-env", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.3"],\
@@ -82,17 +82,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@babel/cli", [\
-        ["npm:7.23.0", {\
-          "packageLocation": "./.yarn/cache/@babel-cli-npm-7.23.0-5f9206645f-beeb189560.zip/node_modules/@babel/cli/",\
+        ["npm:7.23.4", {\
+          "packageLocation": "./.yarn/cache/@babel-cli-npm-7.23.4-deb84e3a78-5a4f296cdf.zip/node_modules/@babel/cli/",\
           "packageDependencies": [\
-            ["@babel/cli", "npm:7.23.0"]\
+            ["@babel/cli", "npm:7.23.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.0", {\
-          "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-d04f07b5de/0/cache/@babel-cli-npm-7.23.0-5f9206645f-beeb189560.zip/node_modules/@babel/cli/",\
+        ["virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.4", {\
+          "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-95347a515d/0/cache/@babel-cli-npm-7.23.4-deb84e3a78-5a4f296cdf.zip/node_modules/@babel/cli/",\
           "packageDependencies": [\
-            ["@babel/cli", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.0"],\
+            ["@babel/cli", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.4"],\
             ["@babel/core", "npm:7.23.3"],\
             ["@jridgewell/trace-mapping", "npm:0.3.17"],\
             ["@nicolo-ribaudo/chokidar-2", "npm:2.1.8-no-fsevents.3"],\
@@ -11523,7 +11523,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["promdash", "workspace:."],\
-            ["@babel/cli", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.0"],\
+            ["@babel/cli", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.4"],\
             ["@babel/core", "npm:7.23.3"],\
             ["@babel/eslint-parser", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.3"],\
             ["@babel/preset-env", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.23.3"],\
