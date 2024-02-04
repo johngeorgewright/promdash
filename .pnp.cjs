@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:10.2.0"],\
             ["nyc", "npm:15.1.0"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["sinon", "npm:14.0.2"],\
+            ["sinon", "npm:17.0.1"],\
             ["sinon-chai", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:3.7.0"]\
           ],\
           "linkType": "SOFT"\
@@ -4173,14 +4173,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@sinonjs/commons", [\
-        ["npm:1.8.3", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-1.8.3-30cf78d93f-6159726db5.zip/node_modules/@sinonjs/commons/",\
-          "packageDependencies": [\
-            ["@sinonjs/commons", "npm:1.8.3"],\
-            ["type-detect", "npm:4.0.8"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-2.0.0-3716f24f20-5023ba17ed.zip/node_modules/@sinonjs/commons/",\
           "packageDependencies": [\
@@ -4188,31 +4180,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["type-detect", "npm:4.0.8"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-3.0.1-bffb9f5a53-a7c3e7cc61.zip/node_modules/@sinonjs/commons/",\
+          "packageDependencies": [\
+            ["@sinonjs/commons", "npm:3.0.1"],\
+            ["type-detect", "npm:4.0.8"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@sinonjs/fake-timers", [\
-        ["npm:7.1.2", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-fake-timers-npm-7.1.2-2a6b119ac7-c84773d797.zip/node_modules/@sinonjs/fake-timers/",\
+        ["npm:11.2.2", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-fake-timers-npm-11.2.2-eb695fcf3c-68c29b0e18.zip/node_modules/@sinonjs/fake-timers/",\
           "packageDependencies": [\
-            ["@sinonjs/fake-timers", "npm:7.1.2"],\
-            ["@sinonjs/commons", "npm:1.8.3"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:9.1.2", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-fake-timers-npm-9.1.2-3ff37ab7fb-7d3aef54e1.zip/node_modules/@sinonjs/fake-timers/",\
-          "packageDependencies": [\
-            ["@sinonjs/fake-timers", "npm:9.1.2"],\
-            ["@sinonjs/commons", "npm:1.8.3"]\
+            ["@sinonjs/fake-timers", "npm:11.2.2"],\
+            ["@sinonjs/commons", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@sinonjs/samsam", [\
-        ["npm:7.0.1", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-samsam-npm-7.0.1-d14786a4c3-291efb158d.zip/node_modules/@sinonjs/samsam/",\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-samsam-npm-8.0.0-fb46139e7a-95e40d0bb9.zip/node_modules/@sinonjs/samsam/",\
           "packageDependencies": [\
-            ["@sinonjs/samsam", "npm:7.0.1"],\
+            ["@sinonjs/samsam", "npm:8.0.0"],\
             ["@sinonjs/commons", "npm:2.0.0"],\
             ["lodash.get", "npm:4.4.2"],\
             ["type-detect", "npm:4.0.8"]\
@@ -4221,10 +4213,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@sinonjs/text-encoding", [\
-        ["npm:0.7.1", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-text-encoding-npm-0.7.1-865b0079b5-130de0bb56.zip/node_modules/@sinonjs/text-encoding/",\
+        ["npm:0.7.2", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-text-encoding-npm-0.7.2-ab9862ba52-fe690002a3.zip/node_modules/@sinonjs/text-encoding/",\
           "packageDependencies": [\
-            ["@sinonjs/text-encoding", "npm:0.7.1"]\
+            ["@sinonjs/text-encoding", "npm:0.7.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6370,6 +6362,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/diff-npm-5.0.0-ad6900db18-f19fe29284.zip/node_modules/diff/",\
           "packageDependencies": [\
             ["diff", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/diff-npm-5.1.0-d24d222280-c7bf0df7c9.zip/node_modules/diff/",\
+          "packageDependencies": [\
+            ["diff", "npm:5.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8983,13 +8982,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["isarray", [\
-        ["npm:0.0.1", {\
-          "packageLocation": "./.yarn/cache/isarray-npm-0.0.1-92e37e0a70-49191f1425.zip/node_modules/isarray/",\
-          "packageDependencies": [\
-            ["isarray", "npm:0.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/isarray-npm-1.0.0-db4f547720-f032df8e02.zip/node_modules/isarray/",\
           "packageDependencies": [\
@@ -9351,10 +9343,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["just-extend", [\
-        ["npm:4.2.1", {\
-          "packageLocation": "./.yarn/cache/just-extend-npm-4.2.1-ccc4201277-ff9fdede24.zip/node_modules/just-extend/",\
+        ["npm:6.2.0", {\
+          "packageLocation": "./.yarn/cache/just-extend-npm-6.2.0-25e57ed812-022024d6f6.zip/node_modules/just-extend/",\
           "packageDependencies": [\
-            ["just-extend", "npm:4.2.1"]\
+            ["just-extend", "npm:6.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10409,15 +10401,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["nise", [\
-        ["npm:5.1.2", {\
-          "packageLocation": "./.yarn/cache/nise-npm-5.1.2-7d294cd167-688c557333.zip/node_modules/nise/",\
+        ["npm:5.1.9", {\
+          "packageLocation": "./.yarn/cache/nise-npm-5.1.9-6af6a9c69b-ab9fd6eabc.zip/node_modules/nise/",\
           "packageDependencies": [\
-            ["nise", "npm:5.1.2"],\
-            ["@sinonjs/commons", "npm:2.0.0"],\
-            ["@sinonjs/fake-timers", "npm:7.1.2"],\
-            ["@sinonjs/text-encoding", "npm:0.7.1"],\
-            ["just-extend", "npm:4.2.1"],\
-            ["path-to-regexp", "npm:1.8.0"]\
+            ["nise", "npm:5.1.9"],\
+            ["@sinonjs/commons", "npm:3.0.1"],\
+            ["@sinonjs/fake-timers", "npm:11.2.2"],\
+            ["@sinonjs/text-encoding", "npm:0.7.2"],\
+            ["just-extend", "npm:6.2.0"],\
+            ["path-to-regexp", "npm:6.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11399,11 +11391,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["path-to-regexp", [\
-        ["npm:1.8.0", {\
-          "packageLocation": "./.yarn/cache/path-to-regexp-npm-1.8.0-a1904f5c44-709f6f083c.zip/node_modules/path-to-regexp/",\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/path-to-regexp-npm-6.2.1-8ebfe03654-f0227af828.zip/node_modules/path-to-regexp/",\
           "packageDependencies": [\
-            ["path-to-regexp", "npm:1.8.0"],\
-            ["isarray", "npm:0.0.1"]\
+            ["path-to-regexp", "npm:6.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11609,7 +11600,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:10.2.0"],\
             ["nyc", "npm:15.1.0"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["sinon", "npm:14.0.2"],\
+            ["sinon", "npm:17.0.1"],\
             ["sinon-chai", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:3.7.0"]\
           ],\
           "linkType": "SOFT"\
@@ -12579,15 +12570,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sinon", [\
-        ["npm:14.0.2", {\
-          "packageLocation": "./.yarn/cache/sinon-npm-14.0.2-76bb0b1579-de7730cd77.zip/node_modules/sinon/",\
+        ["npm:17.0.1", {\
+          "packageLocation": "./.yarn/cache/sinon-npm-17.0.1-997c13081d-a807c2997d.zip/node_modules/sinon/",\
           "packageDependencies": [\
-            ["sinon", "npm:14.0.2"],\
-            ["@sinonjs/commons", "npm:2.0.0"],\
-            ["@sinonjs/fake-timers", "npm:9.1.2"],\
-            ["@sinonjs/samsam", "npm:7.0.1"],\
-            ["diff", "npm:5.0.0"],\
-            ["nise", "npm:5.1.2"],\
+            ["sinon", "npm:17.0.1"],\
+            ["@sinonjs/commons", "npm:3.0.1"],\
+            ["@sinonjs/fake-timers", "npm:11.2.2"],\
+            ["@sinonjs/samsam", "npm:8.0.0"],\
+            ["diff", "npm:5.1.0"],\
+            ["nise", "npm:5.1.9"],\
             ["supports-color", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
@@ -12608,7 +12599,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai", null],\
             ["@types/sinon", null],\
             ["chai", "npm:4.4.1"],\
-            ["sinon", "npm:14.0.2"]\
+            ["sinon", "npm:17.0.1"]\
           ],\
           "packagePeers": [\
             "@types/chai",\
@@ -16006,7 +15997,8 @@ class ZipFS extends BasePortableFakeFS {
           stream$1.destroy();
         },
         bytesRead: 0,
-        path: p
+        path: p,
+        pending: false
       }
     );
     const immediate = setImmediate(async () => {
@@ -16047,11 +16039,12 @@ class ZipFS extends BasePortableFakeFS {
         }
       }),
       {
-        bytesWritten: 0,
-        path: p,
         close() {
           stream$1.destroy();
-        }
+        },
+        bytesWritten: 0,
+        path: p,
+        pending: false
       }
     );
     stream$1.on(`data`, (chunk) => {
@@ -16991,18 +16984,10 @@ class ProxiedFS extends FakeFS {
     return this.baseFs.symlinkSync(mappedTarget, mappedP, type);
   }
   async readFilePromise(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
   }
   readFileSync(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
   }
   async readdirPromise(p, opts) {
     return this.baseFs.readdirPromise(this.mapToBase(p), opts);
@@ -17728,24 +17713,14 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
   async readFilePromise(p, encoding) {
     return this.makeCallPromise(p, async () => {
-      switch (encoding) {
-        case `utf8`:
-          return await this.baseFs.readFilePromise(p, encoding);
-        default:
-          return await this.baseFs.readFilePromise(p, encoding);
-      }
+      return await this.baseFs.readFilePromise(p, encoding);
     }, async (zipFs, { subPath }) => {
       return await zipFs.readFilePromise(subPath, encoding);
     });
   }
   readFileSync(p, encoding) {
     return this.makeCallSync(p, () => {
-      switch (encoding) {
-        case `utf8`:
-          return this.baseFs.readFileSync(p, encoding);
-        default:
-          return this.baseFs.readFileSync(p, encoding);
-      }
+      return this.baseFs.readFileSync(p, encoding);
     }, (zipFs, { subPath }) => {
       return zipFs.readFileSync(subPath, encoding);
     });
@@ -18437,38 +18412,28 @@ function patchFs(patchedFs, fakeFs) {
     patchedFs.realpathSync.native = patchedFs.realpathSync;
   }
   {
-    const origEmitWarning = process.emitWarning;
-    process.emitWarning = () => {
-    };
-    let patchedFsPromises;
-    try {
-      patchedFsPromises = patchedFs.promises;
-    } finally {
-      process.emitWarning = origEmitWarning;
-    }
-    if (typeof patchedFsPromises !== `undefined`) {
-      for (const fnName of ASYNC_IMPLEMENTATIONS) {
-        const origName = fnName.replace(/Promise$/, ``);
-        if (typeof patchedFsPromises[origName] === `undefined`)
-          continue;
-        const fakeImpl = fakeFs[fnName];
-        if (typeof fakeImpl === `undefined`)
-          continue;
-        if (fnName === `open`)
-          continue;
-        setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
-          if (pathLike instanceof FileHandle) {
-            return pathLike[origName].apply(pathLike, args);
-          } else {
-            return fakeImpl.call(fakeFs, pathLike, ...args);
-          }
-        });
-      }
-      setupFn(patchedFsPromises, `open`, async (...args) => {
-        const fd = await fakeFs.openPromise(...args);
-        return new FileHandle(fd, fakeFs);
+    const patchedFsPromises = patchedFs.promises;
+    for (const fnName of ASYNC_IMPLEMENTATIONS) {
+      const origName = fnName.replace(/Promise$/, ``);
+      if (typeof patchedFsPromises[origName] === `undefined`)
+        continue;
+      const fakeImpl = fakeFs[fnName];
+      if (typeof fakeImpl === `undefined`)
+        continue;
+      if (fnName === `open`)
+        continue;
+      setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
+        if (pathLike instanceof FileHandle) {
+          return pathLike[origName].apply(pathLike, args);
+        } else {
+          return fakeImpl.call(fakeFs, pathLike, ...args);
+        }
       });
     }
+    setupFn(patchedFsPromises, `open`, async (...args) => {
+      const fd = await fakeFs.openPromise(...args);
+      return new FileHandle(fd, fakeFs);
+    });
   }
   {
     patchedFs.read[nodeUtils.promisify.custom] = async (fd, buffer, ...args) => {
