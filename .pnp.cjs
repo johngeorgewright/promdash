@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:10.0.3"],\
             ["babel-plugin-istanbul", "npm:6.1.1"],\
             ["babel-upgrade", "npm:1.0.1"],\
-            ["chai", "npm:4.4.1"],\
+            ["chai", "npm:5.1.0"],\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
             ["coveralls", "npm:3.1.1"],\
             ["cross-env", "npm:7.0.3"],\
@@ -4807,10 +4807,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["assertion-error", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/assertion-error-npm-1.1.0-66b893015e-fd9429d3a3.zip/node_modules/assertion-error/",\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/assertion-error-npm-2.0.1-8169d136f2-a0789dd882.zip/node_modules/assertion-error/",\
           "packageDependencies": [\
-            ["assertion-error", "npm:1.1.0"]\
+            ["assertion-error", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5359,17 +5359,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai", [\
-        ["npm:4.4.1", {\
-          "packageLocation": "./.yarn/cache/chai-npm-4.4.1-ffd006b4b1-9ab84f36eb.zip/node_modules/chai/",\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/chai-npm-5.1.0-c091882139-f45c8c6ca8.zip/node_modules/chai/",\
           "packageDependencies": [\
-            ["chai", "npm:4.4.1"],\
-            ["assertion-error", "npm:1.1.0"],\
-            ["check-error", "npm:1.0.3"],\
-            ["deep-eql", "npm:4.1.3"],\
-            ["get-func-name", "npm:2.0.2"],\
-            ["loupe", "npm:2.3.6"],\
-            ["pathval", "npm:1.1.1"],\
-            ["type-detect", "npm:4.0.8"]\
+            ["chai", "npm:5.1.0"],\
+            ["assertion-error", "npm:2.0.1"],\
+            ["check-error", "npm:2.0.0"],\
+            ["deep-eql", "npm:5.0.1"],\
+            ["loupe", "npm:3.1.0"],\
+            ["pathval", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5387,7 +5385,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
             ["@types/chai", null],\
-            ["chai", "npm:4.4.1"],\
+            ["chai", "npm:5.1.0"],\
             ["check-error", "npm:1.0.2"]\
           ],\
           "packagePeers": [\
@@ -5440,11 +5438,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.0.3", {\
-          "packageLocation": "./.yarn/cache/check-error-npm-1.0.3-137994eabc-e2131025cf.zip/node_modules/check-error/",\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/check-error-npm-2.0.0-f3bb82e0c7-120f252c2e.zip/node_modules/check-error/",\
           "packageDependencies": [\
-            ["check-error", "npm:1.0.3"],\
-            ["get-func-name", "npm:2.0.2"]\
+            ["check-error", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6171,11 +6168,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["deep-eql", [\
-        ["npm:4.1.3", {\
-          "packageLocation": "./.yarn/cache/deep-eql-npm-4.1.3-020a64f862-7f6d30cb41.zip/node_modules/deep-eql/",\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/deep-eql-npm-5.0.1-2c26401e09-8009e8a8bf.zip/node_modules/deep-eql/",\
           "packageDependencies": [\
-            ["deep-eql", "npm:4.1.3"],\
-            ["type-detect", "npm:4.0.8"]\
+            ["deep-eql", "npm:5.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7647,13 +7643,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["get-func-name", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/get-func-name-npm-2.0.0-afbf363765-8d82e69f3e.zip/node_modules/get-func-name/",\
-          "packageDependencies": [\
-            ["get-func-name", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.0.2", {\
           "packageLocation": "./.yarn/cache/get-func-name-npm-2.0.2-409dbe3703-3f62f4c236.zip/node_modules/get-func-name/",\
           "packageDependencies": [\
@@ -9802,11 +9791,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["loupe", [\
-        ["npm:2.3.6", {\
-          "packageLocation": "./.yarn/cache/loupe-npm-2.3.6-b8b37d55e7-cc83f1b124.zip/node_modules/loupe/",\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/loupe-npm-3.1.0-fdcfd65df9-e23814854a.zip/node_modules/loupe/",\
           "packageDependencies": [\
-            ["loupe", "npm:2.3.6"],\
-            ["get-func-name", "npm:2.0.0"]\
+            ["loupe", "npm:3.1.0"],\
+            ["get-func-name", "npm:2.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11426,10 +11415,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["pathval", [\
-        ["npm:1.1.1", {\
-          "packageLocation": "./.yarn/cache/pathval-npm-1.1.1-ce0311d7e0-090e314771.zip/node_modules/pathval/",\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/pathval-npm-2.0.0-e9fc9a6282-682b6a6289.zip/node_modules/pathval/",\
           "packageDependencies": [\
-            ["pathval", "npm:1.1.1"]\
+            ["pathval", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11594,7 +11583,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:10.0.3"],\
             ["babel-plugin-istanbul", "npm:6.1.1"],\
             ["babel-upgrade", "npm:1.0.1"],\
-            ["chai", "npm:4.4.1"],\
+            ["chai", "npm:5.1.0"],\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
             ["coveralls", "npm:3.1.1"],\
             ["cross-env", "npm:7.0.3"],\
@@ -12607,7 +12596,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sinon-chai", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:3.7.0"],\
             ["@types/chai", null],\
             ["@types/sinon", null],\
-            ["chai", "npm:4.4.1"],\
+            ["chai", "npm:5.1.0"],\
             ["sinon", "npm:14.0.2"]\
           ],\
           "packagePeers": [\
@@ -16006,7 +15995,8 @@ class ZipFS extends BasePortableFakeFS {
           stream$1.destroy();
         },
         bytesRead: 0,
-        path: p
+        path: p,
+        pending: false
       }
     );
     const immediate = setImmediate(async () => {
@@ -16047,11 +16037,12 @@ class ZipFS extends BasePortableFakeFS {
         }
       }),
       {
-        bytesWritten: 0,
-        path: p,
         close() {
           stream$1.destroy();
-        }
+        },
+        bytesWritten: 0,
+        path: p,
+        pending: false
       }
     );
     stream$1.on(`data`, (chunk) => {
@@ -16991,18 +16982,10 @@ class ProxiedFS extends FakeFS {
     return this.baseFs.symlinkSync(mappedTarget, mappedP, type);
   }
   async readFilePromise(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
   }
   readFileSync(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
   }
   async readdirPromise(p, opts) {
     return this.baseFs.readdirPromise(this.mapToBase(p), opts);
@@ -17728,24 +17711,14 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
   async readFilePromise(p, encoding) {
     return this.makeCallPromise(p, async () => {
-      switch (encoding) {
-        case `utf8`:
-          return await this.baseFs.readFilePromise(p, encoding);
-        default:
-          return await this.baseFs.readFilePromise(p, encoding);
-      }
+      return await this.baseFs.readFilePromise(p, encoding);
     }, async (zipFs, { subPath }) => {
       return await zipFs.readFilePromise(subPath, encoding);
     });
   }
   readFileSync(p, encoding) {
     return this.makeCallSync(p, () => {
-      switch (encoding) {
-        case `utf8`:
-          return this.baseFs.readFileSync(p, encoding);
-        default:
-          return this.baseFs.readFileSync(p, encoding);
-      }
+      return this.baseFs.readFileSync(p, encoding);
     }, (zipFs, { subPath }) => {
       return zipFs.readFileSync(subPath, encoding);
     });
@@ -18437,38 +18410,28 @@ function patchFs(patchedFs, fakeFs) {
     patchedFs.realpathSync.native = patchedFs.realpathSync;
   }
   {
-    const origEmitWarning = process.emitWarning;
-    process.emitWarning = () => {
-    };
-    let patchedFsPromises;
-    try {
-      patchedFsPromises = patchedFs.promises;
-    } finally {
-      process.emitWarning = origEmitWarning;
-    }
-    if (typeof patchedFsPromises !== `undefined`) {
-      for (const fnName of ASYNC_IMPLEMENTATIONS) {
-        const origName = fnName.replace(/Promise$/, ``);
-        if (typeof patchedFsPromises[origName] === `undefined`)
-          continue;
-        const fakeImpl = fakeFs[fnName];
-        if (typeof fakeImpl === `undefined`)
-          continue;
-        if (fnName === `open`)
-          continue;
-        setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
-          if (pathLike instanceof FileHandle) {
-            return pathLike[origName].apply(pathLike, args);
-          } else {
-            return fakeImpl.call(fakeFs, pathLike, ...args);
-          }
-        });
-      }
-      setupFn(patchedFsPromises, `open`, async (...args) => {
-        const fd = await fakeFs.openPromise(...args);
-        return new FileHandle(fd, fakeFs);
+    const patchedFsPromises = patchedFs.promises;
+    for (const fnName of ASYNC_IMPLEMENTATIONS) {
+      const origName = fnName.replace(/Promise$/, ``);
+      if (typeof patchedFsPromises[origName] === `undefined`)
+        continue;
+      const fakeImpl = fakeFs[fnName];
+      if (typeof fakeImpl === `undefined`)
+        continue;
+      if (fnName === `open`)
+        continue;
+      setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
+        if (pathLike instanceof FileHandle) {
+          return pathLike[origName].apply(pathLike, args);
+        } else {
+          return fakeImpl.call(fakeFs, pathLike, ...args);
+        }
       });
     }
+    setupFn(patchedFsPromises, `open`, async (...args) => {
+      const fd = await fakeFs.openPromise(...args);
+      return new FileHandle(fd, fakeFs);
+    });
   }
   {
     patchedFs.read[nodeUtils.promisify.custom] = async (fd, buffer, ...args) => {
