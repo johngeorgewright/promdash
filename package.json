@@ -62,7 +62,7 @@
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
     "lodash": "4.17.21",
-    "mocha": "10.2.0",
+    "mocha": "10.8.2",
     "nyc": "15.1.0",
     "semantic-release": "19.0.5",
     "sinon": "14.0.2",
