@@ -51,7 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.1.1"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.3.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["mocha", "npm:10.2.0"],\
             ["nyc", "npm:15.1.0"],\
             ["semantic-release", "npm:19.0.5"],\
@@ -9749,6 +9749,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.18.1", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.18.1-a64c3070ac-bb5f5b49aa.zip/node_modules/lodash/",\
+          "packageDependencies": [\
+            ["lodash", "npm:4.18.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["lodash.capitalize", [\
@@ -11693,7 +11700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:6.1.1"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.3.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["mocha", "npm:10.2.0"],\
             ["nyc", "npm:15.1.0"],\
             ["semantic-release", "npm:19.0.5"],\
