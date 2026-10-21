@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-istanbul", "npm:6.1.1"],\
             ["babel-upgrade", "npm:1.0.1"],\
             ["chai", "npm:4.4.1"],\
-            ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.2"],\
             ["coveralls", "npm:3.1.1"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.56.0"],\
@@ -5428,17 +5428,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai-as-promised", [\
-        ["npm:7.1.1", {\
-          "packageLocation": "./.yarn/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
+        ["npm:7.1.2", {\
+          "packageLocation": "./.yarn/cache/chai-as-promised-npm-7.1.2-ee0dcf9f07-671ee98005.zip/node_modules/chai-as-promised/",\
           "packageDependencies": [\
-            ["chai-as-promised", "npm:7.1.1"]\
+            ["chai-as-promised", "npm:7.1.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-3c5da52861/0/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
+        ["virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-2bb0b96b2d/0/cache/chai-as-promised-npm-7.1.2-ee0dcf9f07-671ee98005.zip/node_modules/chai-as-promised/",\
           "packageDependencies": [\
-            ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.2"],\
             ["@types/chai", null],\
             ["chai", "npm:4.4.1"],\
             ["check-error", "npm:1.0.2"]\
@@ -11683,7 +11683,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-istanbul", "npm:6.1.1"],\
             ["babel-upgrade", "npm:1.0.1"],\
             ["chai", "npm:4.4.1"],\
-            ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.1"],\
+            ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.2"],\
             ["coveralls", "npm:3.1.1"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.56.0"],\
