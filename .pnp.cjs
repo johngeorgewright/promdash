@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai", "npm:4.5.0"],\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.2"],\
             ["coveralls", "npm:3.1.1"],\
-            ["cross-env", "npm:7.0.3"],\
+            ["cross-env", "npm:10.1.0"],\
             ["eslint", "npm:8.57.1"],\
             ["eslint-config-standard", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:17.1.0"],\
             ["eslint-plugin-import", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:2.32.0"],\
@@ -2425,6 +2425,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.29.8"],\
             ["@babel/helper-string-parser", "npm:7.29.7"],\
             ["@babel/helper-validator-identifier", "npm:7.29.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@epic-web/invariant", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/@epic-web-invariant-npm-1.0.0-a4ac7c9c5e-58e2029bd3.zip/node_modules/@epic-web/invariant/",\
+          "packageDependencies": [\
+            ["@epic-web/invariant", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5337,11 +5346,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["cross-env", [\
-        ["npm:7.0.3", {\
-          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.3-96d81820f4-26f2f3ea2a.zip/node_modules/cross-env/",\
+        ["npm:10.1.0", {\
+          "packageLocation": "./.yarn/cache/cross-env-npm-10.1.0-d2d02f62e5-bd7e013603.zip/node_modules/cross-env/",\
           "packageDependencies": [\
-            ["cross-env", "npm:7.0.3"],\
-            ["cross-spawn", "npm:7.0.3"]\
+            ["cross-env", "npm:10.1.0"],\
+            ["@epic-web/invariant", "npm:1.0.0"],\
+            ["cross-spawn", "npm:7.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5363,6 +5373,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-671cc7c728.zip/node_modules/cross-spawn/",\
           "packageDependencies": [\
             ["cross-spawn", "npm:7.0.3"],\
+            ["path-key", "npm:3.1.1"],\
+            ["shebang-command", "npm:2.0.0"],\
+            ["which", "npm:2.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.0.6", {\
+          "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.6-264bddf921-8d306efaca.zip/node_modules/cross-spawn/",\
+          "packageDependencies": [\
+            ["cross-spawn", "npm:7.0.6"],\
             ["path-key", "npm:3.1.1"],\
             ["shebang-command", "npm:2.0.0"],\
             ["which", "npm:2.0.2"]\
@@ -11598,7 +11618,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai", "npm:4.5.0"],\
             ["chai-as-promised", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:7.1.2"],\
             ["coveralls", "npm:3.1.1"],\
-            ["cross-env", "npm:7.0.3"],\
+            ["cross-env", "npm:10.1.0"],\
             ["eslint", "npm:8.57.1"],\
             ["eslint-config-standard", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:17.1.0"],\
             ["eslint-plugin-import", "virtual:d59badf7c20090aae920c76c94dbac79821ed89843c7471a6e12133688e2a53f876aacf26fd0a058f60b719a0062363c252bfc2343e732eb4a2d0fa6837f8554#npm:2.32.0"],\
